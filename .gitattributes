@@ -1,0 +1,8 @@
+# Windows에서도 줄바꿈을 LF로 유지한다 (build.py 출력과 Scopus 형식이 LF).
+*.py  text eol=lf
+*.md  text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+
+# Scopus CSV는 바이트 그대로 둔다.
+*.csv -text

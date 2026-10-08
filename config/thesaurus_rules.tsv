@@ -1,0 +1,188 @@
+# 표기만 다른 키워드를 하나로 묶는 규칙 (label -> replace by). 열 구분은 탭.
+# 데이터에 실제로 나오는 label만 output/vosviewer/thesaurus_keywords.txt에 쓰인다.
+# '#'으로 시작하는 줄과 빈 줄은 무시한다.
+label	replace by
+
+# bim
+building information model (bim)	bim
+building information model	bim
+building information modeling (bim)	bim
+building information modeling	bim
+building information modelling	bim
+building information models	bim
+
+# eeg
+electroencephalogram (eeg)	eeg
+electroencephalogram	eeg
+electroencephalograph	eeg
+electroencephalography	eeg
+
+# lidar
+light detection and ranging (lidar)	lidar
+
+# uav
+unmanned aerial vehicle	uav
+unmanned aerial vehicles (uavs)	uav
+unnamed aerial vehicle (uav)	uav
+unmanned aircraft systems	uav
+unmanned aircraft system (uas)	uav
+
+# slam
+simultaneous localization and mapping (slam)	slam
+
+# visual slam
+visual slam (vslam)	visual slam
+vslam	visual slam
+
+# personal protective equipment
+personal protective equipment (ppe)	personal protective equipment
+ppe	personal protective equipment
+
+# inertial measurement unit
+inertial measurement unit (imu)	inertial measurement unit
+imu	inertial measurement unit
+wimu	inertial measurement unit
+wearable inertial measurement unit	inertial measurement unit
+wearable inertial measurement units	inertial measurement unit
+inertia measurement units	inertial measurement unit
+
+# rtls
+real-time location system (rtls)	rtls
+real-time locating system (rtls)	rtls
+
+# virtual reality
+virtual reality (vr)	virtual reality
+vr	virtual reality
+
+# artificial intelligence
+artificial intelligence (ai)	artificial intelligence
+
+# work-related musculoskeletal disorders
+work-related musculoskeletal disorders (wmsds)	work-related musculoskeletal disorders
+work-related musculoskeletal disorder	work-related musculoskeletal disorders
+msd	work-related musculoskeletal disorders
+
+# convolutional neural network
+convolutional neural networks	convolutional neural network
+convolutional neural network (cnn)	convolutional neural network
+convolutional neural networks (cnn)	convolutional neural network
+convolution neural network	convolutional neural network
+
+# long short-term memory
+long short term memory (lstm)	long short-term memory
+long short-term memory (lstm)	long short-term memory
+
+# graph neural network
+graph neural network (gnn)	graph neural network
+
+# deep neural network
+deep neural networks	deep neural network
+deep neural network (dnn)	deep neural network
+
+# segment anything model
+segment anything model (sam)	segment anything model
+
+# structure from motion
+structure from motion (sfm)	structure from motion
+structure-from-motion	structure from motion
+
+# terrestrial laser scanning
+terrestrial laser scanning (tls)	terrestrial laser scanning
+
+# modular integrated construction
+modular integrated construction (mic)	modular integrated construction
+
+# occupational health and safety
+occupational health and safety (ohs)	occupational health and safety
+occupational safety and health	occupational health and safety
+
+# large language model
+large language models (llms)	large language model
+
+# vision-language model
+vision-language models	vision-language model
+vision-language model (vlm)	vision-language model
+large vision-language models	vision-language model
+vision-language large model	vision-language model
+
+# falls from height
+fall from height (ffh)	falls from height
+fall from heights	falls from height
+fall from height	falls from height
+
+# point cloud
+point clouds	point cloud
+3d point cloud	point cloud
+3d point clouds	point cloud
+point cloud data	point cloud
+3d point cloud data	point cloud
+
+# synthetic data
+synthetic images	synthetic data
+synthetic image	synthetic data
+synthetic dataset	synthetic data
+synthetic datasets	synthetic data
+
+# computer vision
+computer-vision	computer vision
+
+# stereo vision
+stereo-vision	stereo vision
+
+# 3d reconstruction
+3d-reconstruction	3d reconstruction
+
+# eye tracking
+eye-tracking	eye tracking
+wearable eye-tracking technology	eye tracking
+
+# hazard identification
+hazards identification	hazard identification
+
+# ergonomics
+ergonomic	ergonomics
+
+# visualization
+visualisation	visualization
+
+# 3d pose estimation
+3d human pose estimation	3d pose estimation
+
+# stacked hourglass network
+stacked hourglass network (hg)	stacked hourglass network
+
+# behavior-based safety
+behavior-based safety (bbs)	behavior-based safety
+
+# awkward working postures
+awkward posture	awkward working postures
+
+# deep learning
+deep learning models	deep learning
+deep learning networks	deep learning
+
+# machine learning
+machine learning algorithm	machine learning
+machine learning algorithms	machine learning
+
+# low-rank adaptation
+low-rank adaptation (lora)	low-rank adaptation
+
+# database-free
+database-free (db-free)	database-free
+
+# 복수형 -> 단수형
+construction sites	construction site
+construction workers	construction worker
+construction sites monitoring	construction site monitoring
+construction sites safety	construction site safety
+digital twins	digital twin
+neural networks	neural network
+photogrammetric point clouds	photogrammetric point cloud
+robots	robot
+scaffolds	scaffold
+support vector machines	support vector machine
+wearable devices	wearable device
+wearable sensors	wearable sensor
+construction activities	construction activity
+cyber physical systems	cyber-physical systems
