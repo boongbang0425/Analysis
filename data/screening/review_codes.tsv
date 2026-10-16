@@ -1,0 +1,587 @@
+# AutCon 리뷰 합집합(582편)의 1차 분류. Claude가 제목 전체와 핵심·일부 주변 리뷰의 초록을 읽고 매겼다. 열 구분은 탭.
+# 범위: 핵심 = 시공·공장 제작 단계의 현장 인식·센싱을 직접 다룸 | 주변 = 시공 단계지만 인식이 중심이 아님, 또는 유지관리 단계의 영상·점군 인식 | 밖 = 그 외
+# 주제코드는 config/topics.tsv, '관련 후보'는 본인이 정한 후보 코드를 적는 칸(비어 있음). 검수 결과는 '본인검수' 열에 적는다.
+# '연도'와 '제목(참고)'는 읽기용이다. build_reviews.py는 EID로만 연결한다.
+EID	연도	제목(참고)	범위	주제코드	단계	공백(초록 기준)	관련 후보	메모	본인검수
+2-s2.0-0034216595	2000	Parametric design: A review and some experiences	밖	Z					
+2-s2.0-0036605004	2002	Automated inspection and restoration of steel bridges - A critical review of methods and enabling technologies	주변	H	유지관리				
+2-s2.0-1642602945	2004	Multi-agent systems in construction-state of the art and prospects	밖	Z					
+2-s2.0-10444258169	2005	Intelligent building research: A review	밖	Z					
+2-s2.0-34247172406	2007	A comparison of floorplan design strategies in architecture and engineering	밖	Z					
+2-s2.0-45849146530	2008	Decision-making and assessment tool for design and construction of high-rise building drainage systems	밖	Z					
+2-s2.0-41749100125	2008	The strategies of tabu search technique for facility layout optimization	밖	Z					
+2-s2.0-40649110233	2008	Two photogrammetric methods for measuring flat elements in buildings under construction	핵심	H	시공				
+2-s2.0-38649111297	2008	User perspectives on mixed reality tabletop visualization for face-to-face collaborative design review	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-63549124746	2009	Application of computer simulation to bridge deck construction: Case study	밖	Z					
+2-s2.0-70349429622	2009	Automatic rule-based checking of building designs	밖	Z					
+2-s2.0-67349114819	2009	Chronological development history of X-Y table based pavement crack sealers and research findings for practical use in the field	밖	Z					
+2-s2.0-58949096650	2009	Performance analysis of hydraulic excavator powertrain hybridization	밖	Z					
+2-s2.0-58949093608	2009	The evolution of prefabricated residential building systems in Hong Kong: A review of the public and the private sector	밖	Z					
+2-s2.0-77956613363	2010	3D and VR models in Civil Engineering education: Construction, rehabilitation and maintenance	밖	Z					
+2-s2.0-77956619234	2010	Automatic reconstruction of as-built building information models from laser-scanned point clouds: A review of related techniques	핵심	G	범용(기존 건물)	as-built BIM 자동 생성의 기술 공백(기하 모델링, 객체 인식, 관계 모델링)과 성능 평가 척도 필요			
+2-s2.0-77949487797	2010	Automation and robotics in construction: International research and achievements	밖	Z					
+2-s2.0-70449722771	2010	Automation robustness of scaffolding systems strengthened with organic prestressing	밖	Z					
+2-s2.0-70449522039	2010	Development of hybrid powered hydraulic construction machinery	밖	Z					
+2-s2.0-77955717400	2010	Estimation of earthworks execution time cost by means of artificial neural networks	밖	Z					
+2-s2.0-77950928833	2010	Integration of chaos theory and mathematical models in building simulation. Part I: Literature review	밖	Z					
+2-s2.0-76549091558	2010	Overview of HVAC system simulation	밖	Z					
+2-s2.0-76549130053	2010	Traction efficiency of a wheeled tractor in construction operations	밖	Z					
+2-s2.0-79551689722	2011	A theoretical framework of a BIM-based multi-disciplinary collaboration platform	밖	Z					
+2-s2.0-79957534995	2011	Metaheuristics for project and construction management - A state-of-the-art review	밖	Z					
+2-s2.0-80052832799	2011	Multiobjective evolutionary finance-based scheduling: Individual projects within a portfolio	밖	Z					
+2-s2.0-80052855209	2011	Simulations and analyses of arched brick structures	밖	Z					
+2-s2.0-84860313079	2012	Development of space database for automated building design review systems	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-81355147719	2012	IT supported collaborative work in A/E/C projects: A ten-year review	밖	Z					
+2-s2.0-84863708251	2012	Safety risk identification system for metro construction on the basis of construction drawings	밖	Z					
+2-s2.0-84878373156	2013	Augmented reality in built environment: Classification and implications for future research	밖	Z					
+2-s2.0-84887445707	2013	Extending automation of building construction - Survey on potential sensor technologies and robotic applications	주변	I	시공				
+2-s2.0-84871808164	2013	Measurement planning for circular cross-section tunnels using terrestrial laser scanning	밖	Z					
+2-s2.0-84871742901	2013	Non-linear optimization of track layouts in loop-sorting-systems	밖	Z					
+2-s2.0-84878410881	2013	Research trends and opportunities of augmented reality applications in architecture, engineering, and construction	밖	Z					
+2-s2.0-84902807750	2014	A review of application of multi-criteria decision making methods in construction	밖	Z					
+2-s2.0-84899811696	2014	An explanatory case study on cloud computing applications in the built environment	밖	Z					
+2-s2.0-84890525940	2014	Building Information Modeling (BIM) for existing buildings - Literature review and future needs	밖	Z					
+2-s2.0-84893084445	2014	Critical evaluation of cognitive analysis techniques for construction field management	주변	E	시공				
+2-s2.0-84899440667	2014	Enhancing submittal review and construction inspection in public projects	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-84894906182	2014	Life cycle design and prefabrication in buildings: A review and case studies in Hong Kong	밖	Z					
+2-s2.0-84905182221	2014	Survey of digital technologies in procurement of construction projects	밖	Z					
+2-s2.0-84922502969	2015	A critical review of structural equation modeling applications in construction research	밖	Z					
+2-s2.0-84925784934	2015	Building performance simulation in the early design stage: An introduction to integrated dynamic models	밖	Z					
+2-s2.0-84934894902	2015	Enhancing environmental sustainability over building life cycles through green BIM: A review	밖	Z					
+2-s2.0-84944400849	2015	Past, present and future of robotic tunnel inspection	주변	H	유지관리				
+2-s2.0-84955486329	2016	3D terrain reconstruction of construction sites using a stereo camera	핵심	K	시공			원저(Scopus 문서 유형은 Review). 굴착기 탑재 스테레오 카메라로 지형 복원. 보유 장비와 가까운 구성	
+2-s2.0-84964911316	2016	A critical review of the use of 3-D printing in the construction industry	밖	Z					
+2-s2.0-84994104884	2016	Additive construction: State-of-the-art, challenges and opportunities	밖	Z					
+2-s2.0-84962755489	2016	Analytical review and evaluation of civil information modeling	밖	Z					
+2-s2.0-84985003646	2016	BIM for infrastructure: An overall review and constructor perspective	밖	Z					
+2-s2.0-84982859375	2016	Data acquisition technologies for construction progress tracking	핵심	G	시공	실시간 진도 데이터 취득 기술(3D 영상, AR 등)의 장단점 비교와 프로젝트별 선택 기준			
+2-s2.0-84995495509	2016	Mobile Internet based construction supply chain management: A critical review	밖	Z					
+2-s2.0-84949671066	2016	Multi-tier method using infrared photography and GPR to detect and locate water leaks	밖	Z					
+2-s2.0-84950266890	2016	Parallel genetic algorithm based automatic path planning for crane lifting in complex environments	밖	Z					
+2-s2.0-84951199254	2016	Real-time locating systems applications in construction	핵심	K	시공	RTLS 연구 공백 4개 제시(초록에 구체 내용 없음)			
+2-s2.0-84994121561	2016	The application of case-based reasoning in construction management research: An overview	밖	Z					
+2-s2.0-85016287202	2017	A review of developments in energy storage systems for hybrid excavators	밖	Z					
+2-s2.0-85017102724	2017	A scientometric review of global BIM research: Analysis and visualization	밖	Z					
+2-s2.0-85015428366	2017	Bibliometric analysis and review of Building Information Modelling literature published between 2005 and 2015	밖	Z					
+2-s2.0-85027406680	2017	Building Information Modeling (BIM) for green buildings: A critical review and future directions	밖	Z					
+2-s2.0-85016487595	2017	Corrosiveness mapping of bridge decks using image-based analysis of GPR data	밖	Z					
+2-s2.0-85028303631	2017	Evaluating wheel loader operating conditions based on radar chart	밖	Z					
+2-s2.0-85019886106	2017	Formulating project-level building information modeling evaluation framework from the perspectives of organizations: A review	밖	Z					
+2-s2.0-85010918168	2017	Machine learning for durability and service-life assessment of reinforced concrete structures: Recent advances and future directions	밖	Z					
+2-s2.0-85029503871	2017	Mapping the knowledge domains of Building Information Modeling (BIM): A bibliometric approach	밖	Z					
+2-s2.0-84998890667	2017	Semantic web technologies in AEC industry: A literature overview	밖	Z					
+2-s2.0-85009740669	2017	Simulating quality assurance and efficiency analysis between construction management and engineering geodesy	밖	Z					
+2-s2.0-85006802917	2017	The building information modelling trajectory in facilities management: A review	밖	Z					
+2-s2.0-84999054164	2017	Visualization technology-based construction safety management: A review	주변	A	시공				
+2-s2.0-85034043364	2018	A critical review of virtual and augmented reality (VR/AR) applications in construction safety	주변	D	시공	VR/AR 안전 연구 분류(위험 인식, 교육, 검사)와 공백 목록			
+2-s2.0-85056829674	2018	A unified BIM adoption taxonomy: Conceptual development, empirical validation and application	밖	Z					
+2-s2.0-85046999128	2018	Additive manufacturing technology and its implementation in construction as an eco-innovative solution	밖	Z					
+2-s2.0-85040001669	2018	An IoT-based autonomous system for workers’ safety in construction sites with real-time alarming, monitoring, and positioning strategies	주변	B	시공			IoT(비전 아님)	
+2-s2.0-85041464745	2018	Applications of additive manufacturing in the construction industry – A forward-looking review	밖	Z					
+2-s2.0-85031756094	2018	Automated point mapping for building control systems: Recent advances and future research needs	밖	Z					
+2-s2.0-85049913864	2018	Building Information Modeling (BIM) for transportation infrastructure – Literature review, applications, challenges, and recommendations	밖	Z					
+2-s2.0-85054737601	2018	Building energy savings: Analysis of research trends based on text mining	밖	Z					
+2-s2.0-85038865118	2018	Critical evaluation of off-site construction research: A Scientometric analysis	밖	Z					
+2-s2.0-85043481052	2018	Critical success factors for implementing building information modelling (BIM): A longitudinal review	밖	Z					
+2-s2.0-85050113621	2018	Design-for-Safety knowledge library for BIM-integrated safety risk reviews	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85052857770	2018	Digital engineering potential in addressing causes of construction accidents	주변	A	시공				
+2-s2.0-85046644826	2018	Digitisation in facilities management: A literature review and future research directions	밖	Z					
+2-s2.0-85051264719	2018	Feasibility study for drone-based masonry construction of real-scale structures	주변	I	시공				
+2-s2.0-85037354812	2018	Historic Building Information Modelling: performance assessment for diagnosis-aided information modelling and management	밖	Z					
+2-s2.0-85047398369	2018	Linking radio-frequency identification to Building Information Modeling: Status quo, development trajectory and guidelines for practitioners	밖	Z					
+2-s2.0-85042321715	2018	MVD based information exchange between BIM and building energy performance simulation	밖	Z					
+2-s2.0-85052304883	2018	Programmable hydraulic control technique in construction machinery: Status, challenges and countermeasures	밖	Z					
+2-s2.0-85042882624	2018	Rationalization methods in computer aided fabrication: A critical review	밖	Z					
+2-s2.0-85034031179	2018	Review of ICT Implementations for Facilitating Information Flow between Virtual Models and Construction Project Sites	주변	G	시공				
+2-s2.0-85047258837	2018	Review of Unmanned Aerial System (UAS) applications in the built environment: Towards automated building inspection procedures using drones	주변	H	유지관리				
+2-s2.0-85046027896	2018	Review of hybrid electric systems for construction machinery	밖	Z					
+2-s2.0-85054175162	2018	Spatial compactness metrics and Constrained Voxel Automata development for analyzing 3D densification and applying to point clouds: A synthetic review	밖	Z					
+2-s2.0-85031504434	2018	Wearable technology for personalized construction safety monitoring and trending: Review of applicable devices	주변	C	시공			웨어러블	
+2-s2.0-85060885881	2019	A review of building information modeling (BIM) and the internet of things (IoT) devices integration: Present status and future trends	밖	Z					
+2-s2.0-85071757853	2019	A scientometric analysis and critical review of computer vision applications for construction	핵심	K	시공	오프사이트 시공 대상 연구 부족, 연구 영역·연구자·기관 간 연계 부족		계량서지 + 비판적 리뷰. 방법 참고용	
+2-s2.0-85060345120	2019	A scientometric analysis and critical review of construction related ontology research	밖	Z					
+2-s2.0-85056158579	2019	A survey of automation-enabled human-in-the-loop systems for infrastructure visual inspection	주변	H	유지관리				
+2-s2.0-85061964552	2019	Adaptive computer vision-based 2D tracking of workers in complex environments	핵심	E	시공			원저(Scopus 문서 유형은 Review). 다중 작업자 2D 추적	
+2-s2.0-85063756372	2019	Additive manufacturing as an enabling technology for digital construction: A perspective on Construction 4.0	밖	Z					
+2-s2.0-85060881716	2019	Adopting Internet of Things for the development of smart buildings: A review of enabling technologies and applications	밖	Z					
+2-s2.0-85064087934	2019	Analyzing the potential of Virtual Reality for engineering design review	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85062655898	2019	Blockchain in the built environment and construction industry: A systematic review, conceptual models and practical use cases	밖	Z					
+2-s2.0-85060755230	2019	Building information modelling for off-site construction: Review and future directions	밖	Z					
+2-s2.0-85056227261	2019	Data analytics to improve building performance: A critical review	밖	Z					
+2-s2.0-85065416512	2019	Data mining approach to construction productivity prediction for cutter suction dredgers	밖	Z					
+2-s2.0-85064735013	2019	Development and implementation of automated fault detection and diagnostics for building systems: A review	밖	Z					
+2-s2.0-85062429753	2019	Dynamic shading systems: A review of design parameters, platforms and evaluation strategies	밖	Z					
+2-s2.0-85063401834	2019	Informetric analysis and review of literature on the role of BIM in sustainable construction	밖	Z					
+2-s2.0-85067247490	2019	Integrating BIM with building performance analysis in project life-cycle	밖	Z					
+2-s2.0-85059632874	2019	Integrating Building Information Modeling and Prefabrication Housing Production	밖	Z					
+2-s2.0-85062851084	2019	Integration of BIM and GIS in sustainable built environment: A review and bibliometric analysis	밖	Z					
+2-s2.0-85069863311	2019	Mapping computer vision research in construction: Developments, knowledge gaps and implications for research	핵심	K	시공	CV 적용 영역(결함 검사, 안전 감시, 성과 분석) 지도화와 지식 공백(초록에 구체 내용 없음)		계량서지. 방법 참고용	
+2-s2.0-85059964352	2019	Non-contact sensing based geometric quality assessment of buildings and civil structures: A review	핵심	H	시공+공장 제작+유지관리	단계별 기하 품질 검사 기법 개선, 적용성 개선, 사진측량 정확도 개선			
+2-s2.0-85056487862	2019	Review of BIM's application in energy simulation: Tools, issues, and solutions	밖	Z					
+2-s2.0-85071535799	2019	Robotic autonomous systems for earthmoving in military applications	밖	Z					
+2-s2.0-85077927607	2020	A Survey on Image-Based Automation of CCTV and SSET Sewer Inspections	주변	H	유지관리				
+2-s2.0-85086903166	2020	Additive manufacturing: Technology, applications, markets, and opportunities for the built environment	밖	Z					
+2-s2.0-85090744120	2020	Artificial intelligence for the modeling of water pipes deterioration mechanisms	밖	Z					
+2-s2.0-85077800987	2020	Artificial intelligence in the AEC industry: Scientometric analysis and visualization of research activities	밖	Z					
+2-s2.0-85080044859	2020	Automated digital modeling of existing buildings: A review of visual object recognition methods	핵심	G	범용(기존 건물)	인식 대상이 바닥·벽·천장·문·창에 치우쳐 의미 범위가 좁음			
+2-s2.0-85084514030	2020	Automated generation of optimal thematic architectural layouts using image processing	밖	Z					
+2-s2.0-85073723900	2020	Automated manufacturing for timber-based panelised wall systems	밖	Z					
+2-s2.0-85078567856	2020	BIM compatibility and its differentiation with interoperability challenges as an innovation factor	밖	Z					
+2-s2.0-85076840906	2020	Barriers to adopting simulation modelling in construction industry	밖	Z					
+2-s2.0-85078951928	2020	Chronographical spatiotemporal dynamic 4D planning	밖	Z					
+2-s2.0-85076051479	2020	Computer vision applications in construction safety assurance	핵심	A	시공	정확도·신뢰성 문제, 감시 영상 확보의 어려움. 불안전 행동·작업 조건 인식 프레임워크 제안			
+2-s2.0-85083072665	2020	Condition monitoring of bridges with non-contact testing technologies	주변	H	유지관리				
+2-s2.0-85087202900	2020	Data mining in the construction industry: Present status, opportunities, and future trends	밖	Z					
+2-s2.0-85081007456	2020	Dimensionality in BIM: Why BIM cannot have more than four dimensions?	밖	Z					
+2-s2.0-85084849966	2020	Gaps and requirements for automatic generation of space layouts with optimised energy performance	밖	Z					
+2-s2.0-85079330804	2020	Interoperability in building information modeling for AECO/FM industry	밖	Z					
+2-s2.0-85085238526	2020	Lift planning and optimization in construction: A thirty-year review	밖	Z					
+2-s2.0-85091915149	2020	Mobile indoor mapping technologies: A review	핵심	K	범용(실내)	모바일 실내 매핑 장비 비교(무게, 센서, 운용 시간)와 선택 기준		장비 선택 참고용	
+2-s2.0-85087893787	2020	Neuro-fuzzy systems in construction engineering and management research	밖	Z					
+2-s2.0-85086985096	2020	On-site autonomous construction robots: Towards unsupervised building	주변	I	시공				
+2-s2.0-85087326858	2020	Pavement asset management systems and technologies: A review	밖	Z					
+2-s2.0-85082174878	2020	Representing construction-related geometry in a semantic web context: A review of approaches	밖	Z					
+2-s2.0-85079526957	2020	Sensor-based safety management	핵심	A	시공	센서 기반 안전관리와 BIM을 통합한 연구가 적음			
+2-s2.0-85082023769	2020	Spatial reasoning mechanism to enable automated adaptive trajectory planning in ground penetrating radar survey	밖	Z					
+2-s2.0-85086501854	2020	Top 10 technologies for indoor positioning on construction sites	핵심	K	시공	현장 맞춤 실내 측위, 측위 기술 혼합, BIM 연계			
+2-s2.0-85082386834	2020	Towards a semantic Construction Digital Twin: Directions for future research	주변	G	시공				
+2-s2.0-85091337373	2020	Unsupervised reconstruction of Building Information Modeling wall objects from point cloud data	핵심	G	범용(기존 건물)			원저(Scopus 문서 유형은 Review). 점군에서 BIM 벽 객체를 비지도 복원	
+2-s2.0-85086464158	2020	Virtual reality applications for the built environment: Research trends and opportunities	주변	D	범용				
+2-s2.0-85113278933	2021	5G-based earthwork monitoring system for an unmanned bulldozer	주변	F	시공				
+2-s2.0-85114159730	2021	A critical review of text-based research in construction: Data source, analysis method, and implications	밖	Z					
+2-s2.0-85097079203	2021	A review of occupant-centric control strategies for adaptive facades	밖	Z					
+2-s2.0-85114672918	2021	A review on flood management technologies related to image processing and machine learning	밖	Z					
+2-s2.0-85097892893	2021	A system boundary-based critical review on crane selection in building construction	밖	Z					
+2-s2.0-85101827340	2021	A systematic review and analysis of the viability of 3D-printed construction in remote environments	밖	Z					
+2-s2.0-85112473830	2021	Agent-based modeling and simulation in construction	밖	Z					
+2-s2.0-85112415953	2021	An evidence of cognitive benefits from immersive design review: Comparing three-dimensional perception and presence between immersive and non-immersive virtual environments	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85112415385	2021	Application of weigh-in-motion technologies for pavement and bridge response monitoring: State-of-the-art review	밖	Z					
+2-s2.0-85115031911	2021	Applications of distributed ledger technology (DLT) and Blockchain-enabled smart contracts in construction	밖	Z					
+2-s2.0-85099610048	2021	Artificial intelligence applied to conceptual design. A review of its use in architecture	밖	Z					
+2-s2.0-85116582891	2021	Automated lift planning methods for mobile cranes	밖	Z					
+2-s2.0-85103378820	2021	BIM security: A critical review and recommendations using encryption strategy and blockchain	밖	Z					
+2-s2.0-85096233793	2021	Back-fill grouting quality evaluation of the shield tunnel using ground penetrating radar with bi-frequency back projection method	밖	Z					
+2-s2.0-85106471575	2021	Bibliometric analysis of building information modeling, geographic information systems and web environment integration	밖	Z					
+2-s2.0-85115612805	2021	Blockchain and the ‘Internet of Things' for the construction industry: research trends and opportunities	밖	Z					
+2-s2.0-85107817167	2021	Classification and analysis of deep learning applications in construction: A systematic literature review	주변	K	시공				
+2-s2.0-85098678843	2021	Cloud computing in construction industry: Use cases, benefits and challenges	밖	Z					
+2-s2.0-85093672914	2021	Code compliance checking of railway designs by integrating BIM, BPMN and DMN	밖	Z					
+2-s2.0-85095407430	2021	Combining multi-criteria decision making (MCDM) methods with building information modelling (BIM): A review	밖	Z					
+2-s2.0-85114765919	2021	Computer vision applications in construction: Current state, opportunities & challenges	핵심	K	시공	안전·진도·생산성·품질 4개 영역의 기회와 과제(초록에 구체 내용 없음)			
+2-s2.0-85104287364	2021	Computer vision-based interior construction progress monitoring: A literature review and future research directions	핵심	G	시공	실내 공정 모니터링 연구가 외부보다 훨씬 적음. CV와 다른 데이터 기술의 결합 의제			
+2-s2.0-85096574723	2021	Crane operations and planning in modular integrated construction: Mixed review of literature	밖	Z					
+2-s2.0-85112836421	2021	Deep-learning-based visual data analytics for smart construction management	핵심	K	시공	3D 시각 데이터 활용이 덜 연구됨(미래 방향 3개)			
+2-s2.0-85095915818	2021	Design approaches and typologies of adaptive facades: A review	밖	Z					
+2-s2.0-85112485443	2021	Determining Uncertainties in AI Applications in AEC Sector and their Corresponding Mitigation Strategies	밖	Z					
+2-s2.0-85115889045	2021	Difficulty assessment of shoveling stacked materials based on the fusion of neural network and radar chart information	밖	Z					
+2-s2.0-85111194484	2021	Digital twin and its implementations in the civil engineering sector	밖	Z					
+2-s2.0-85096840342	2021	Exoskeletons for manual material handling – A review and implication for construction applications	주변	C	시공				
+2-s2.0-85114111875	2021	Exploratory literature review of blockchain in the construction industry	밖	Z					
+2-s2.0-85097712876	2021	Floor plan generation through a mixed constraint programming-genetic optimization approach	밖	Z					
+2-s2.0-85111652210	2021	Foam 3D printing for construction: A review of applications, materials, and processes	밖	Z					
+2-s2.0-85104916289	2021	Framework for technical specifications of 3D concrete printers	밖	Z					
+2-s2.0-85094325079	2021	Indoor navigation supported by the Industry Foundation Classes (IFC): A survey	밖	Z					
+2-s2.0-85113532483	2021	Integrating disruptive technologies with facilities management: A literature review and future research directions	밖	Z					
+2-s2.0-85112562124	2021	Linking sewer condition assessment methods to asset managers’ data-needs	밖	Z					
+2-s2.0-85115751606	2021	Machine vision-based surface crack analysis for transportation infrastructure	주변	H	유지관리				
+2-s2.0-85105254522	2021	Measurement of cable forces for automated monitoring of engineering structures using fiber optic sensors: A review	밖	Z					
+2-s2.0-85111591654	2021	Multi-objective optimization for pavement maintenance and rehabilitation decision-making: A critical review and future directions	밖	Z					
+2-s2.0-85101305094	2021	Planning for terrestrial laser scanning in construction: A review	핵심	G	시공	실내 시공용 완전 자동 스캔 계획(최적 커버리지) 부재			
+2-s2.0-85099630465	2021	Posture-related data collection methods for construction workers: A review	핵심	C	시공	자세 데이터 수집이 모션 센서·RGB 카메라 위주. 수집 도구와 응용의 공백			
+2-s2.0-85106388422	2021	Review and analysis of augmented reality (AR) literature for digital fabrication in architecture	밖	Z					
+2-s2.0-85097712417	2021	Review of image-based analysis and applications in construction	핵심	K	시공	객체 탐지를 정량화·치수 측정과 결합한 응용 필요			
+2-s2.0-85098132728	2021	Risk assessment and management of excavation system based on fuzzy set theory and machine learning methods	밖	Z					
+2-s2.0-85097906264	2021	Roles of artificial intelligence in construction engineering and management: A critical review and future trends	주변	K	시공				
+2-s2.0-85107288885	2021	Scientometric mapping of smart building research: Towards a framework of human-cyber-physical system (HCPS)	밖	Z					
+2-s2.0-85098731819	2021	Segmentation of rust defects on painted steel surfaces by intelligent image analysis	주변	H	유지관리				
+2-s2.0-85112290875	2021	Semantic interpretation of architectural and archaeological geometries: Point cloud segmentation for HBIM parameterisation	주변	G	유지관리				
+2-s2.0-85106393986	2021	Semantic text-pairing for relevant provision identification in construction specification reviews	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85101369804	2021	Technologies for safe and resilient earthmoving operations: A systematic literature review	핵심	B	시공	다중 센서·데이터 융합과 시스템 수준 적용. 사고 예측·예방·대응 기능			
+2-s2.0-85099716881	2021	The progress and trend of BIM research: A bibliometrics-based visualization analysis	밖	Z					
+2-s2.0-85116059639	2021	Utilization of electric prime movers in hydraulic heavy-duty-mobile-machine implement systems	밖	Z					
+2-s2.0-85104980860	2021	Voxel-based representation of 3D point clouds: Methods, applications, and its potential use in the construction industry	핵심	K	범용	복셀 기반 점군 표현의 건설 활용			
+2-s2.0-85139071990	2022	3D indoor environments in pedestrian evacuation simulations	밖	Z					
+2-s2.0-85138173879	2022	A Systematic evaluation of blockchain-enabled contract administration in construction projects	밖	Z					
+2-s2.0-85120741858	2022	A blockchain-based edge collaborative detection scheme for construction internet of things	밖	Z					
+2-s2.0-85124950094	2022	A taxonomy of machine learning applications for virtual power plants and home/building energy management systems	밖	Z					
+2-s2.0-85127900756	2022	Acoustic leak detection approaches for water pipelines	밖	Z					
+2-s2.0-85117688222	2022	Additive manufacturing of clay and ceramic building components	밖	Z					
+2-s2.0-85134697552	2022	Agent-based modeling and simulation in architecture	밖	Z					
+2-s2.0-85127355609	2022	Anthropomorphic soft robotic end-effector for use with collaborative robots in the construction industry	밖	Z					
+2-s2.0-85119021310	2022	Application of ANFIS in the preparation of expert opinions and evaluation of building design variants in the context of processing large amounts of data	밖	Z					
+2-s2.0-85132708362	2022	Application of deep learning in facility management and maintenance for heating, ventilation, and air conditioning	밖	Z					
+2-s2.0-85117105300	2022	Applications of electroencephalography in construction	주변	C	시공			EEG	
+2-s2.0-85120345731	2022	Applications of fuzzy hybrid techniques in construction engineering and management research	밖	Z					
+2-s2.0-85125179965	2022	Applications of natural language processing in construction	밖	Z					
+2-s2.0-85119057908	2022	Arbitrarily-oriented tunnel lining defects detection from Ground Penetrating Radar images using deep Convolutional Neural networks	밖	Z					
+2-s2.0-85132775254	2022	Artificial intelligence and smart vision for building and construction 4.0: Machine and deep learning methods and applications	핵심	K	전 생애주기	AI 모델 개발 과제(데이터 수집·정제·저장)			
+2-s2.0-85125925740	2022	Artificial intelligence in green building	밖	Z					
+2-s2.0-85131460632	2022	Automated Assessment of Reinforced Concrete Elements using Ground Penetrating Radar	밖	Z					
+2-s2.0-85119450070	2022	Automated fabrication of reinforcement cages using a robotized production cell	밖	Z					
+2-s2.0-85131376605	2022	Automated floorplan generation in architectural design: A review of methods and applications	밖	Z					
+2-s2.0-85119902020	2022	Automatic coarse registration of point clouds using plane contour shape descriptor and topological graph voting	주변	K	범용			원저(Scopus 문서 유형은 Review)	
+2-s2.0-85131381124	2022	Automatic floor plan analysis and recognition	밖	Z					
+2-s2.0-85121014179	2022	BIM data flow architecture with AR/VR technologies: Use cases in architecture, engineering and construction	밖	Z					
+2-s2.0-85124624849	2022	BIM/GIS data integration from the perspective of information flow	밖	Z					
+2-s2.0-85130770250	2022	Blockchain in construction management: Applications, advantages and limitations	밖	Z					
+2-s2.0-85121141247	2022	Blockchain in the AECO industry: Current status, key topics, and future research agenda	밖	Z					
+2-s2.0-85138405159	2022	Challenges and opportunities of augmented reality during the construction phase	주변	D	시공	시공 단계 AR은 아직 미성숙하고 연구 간 상충이 있음			
+2-s2.0-85122615043	2022	Challenges, tasks, and opportunities in teleoperation of excavator toward human-in-the-loop construction automation	주변	F	시공				
+2-s2.0-85134434441	2022	Cloud-based Building Information Modelling (Cloud-BIM): Systematic literature review and Bibliometric-qualitative Analysis	밖	Z					
+2-s2.0-85127703759	2022	Computer vision-based construction progress monitoring	핵심	G	시공	CV 진도 모니터링 파이프라인 벤치마킹 필요. 단계별 연구 질문 제시. 디지털 트윈 연계			
+2-s2.0-85140486091	2022	Condition assessment of concrete-made structures using ground penetrating radar	밖	Z					
+2-s2.0-85133944765	2022	Construction and maintenance of urban underground infrastructure with digital technologies	밖	Z					
+2-s2.0-85139872151	2022	Critical influencing factors of supply chain management for modular integrated construction	밖	Z					
+2-s2.0-85138197683	2022	Data acquisition-interpretation-aggregation for dynamic design of rock tunnel support	밖	Z					
+2-s2.0-85121253680	2022	Deep learning-based 3D reconstruction of scaffolds using a robot dog	핵심	A	시공			원저(Scopus 문서 유형은 Review). 로봇개 점군으로 비계 3D 복원(F1 90.84%). 가설 구조물 형상 인식	
+2-s2.0-85129465824	2022	Deep learning-based data analytics for safety in construction	핵심	A	시공	고품질 DB 부족, 모델 능력 부족, 적용 시나리오 제한. 동적 멀티모달 지식 그래프 제안			
+2-s2.0-85118161462	2022	Deep-learning-based vision for earth-moving automation	핵심	F	시공	비균질 재료 적재, 적재·하역 중 주행이 공백			
+2-s2.0-85128186045	2022	Developments, challenges, and perspectives of railway inspection robots	주변	H	유지관리				
+2-s2.0-85134756500	2022	Durability properties of 3D printed concrete (3DPC)	밖	Z					
+2-s2.0-85127494894	2022	Effect of supplementary cementitious materials on properties of 3D printed conventional and alkali-activated concrete: A review	밖	Z					
+2-s2.0-85135940865	2022	Effectiveness of infrared thermography for delamination detection in reinforcedconcrete bridge decks	밖	Z					
+2-s2.0-85129466156	2022	Effectiveness of neural networks and transfer learning for indoor air-temperature forecasting	밖	Z					
+2-s2.0-85132226500	2022	Feature-based sensor configuration and working-stage recognition of wheel loader	밖	Z					
+2-s2.0-85135409605	2022	Human motion prediction for intelligent construction: A review	핵심	E	시공	사람 동작 예측으로 자율 시스템이 충돌 회피·개입 시점을 판단			
+2-s2.0-85123799682	2022	IFC+: Towards the integration of IoT into early stages of building design	밖	Z					
+2-s2.0-85139590868	2022	Identifying enablers and relational ontology networks in design for digital fabrication	밖	Z					
+2-s2.0-85131823109	2022	Impact of extended reality on architectural education and the design process	밖	Z					
+2-s2.0-85127823661	2022	Improvement factors of constructability and occupational safety on project life cycle phases	밖	Z					
+2-s2.0-85129264209	2022	Integrated applications of building information modeling and artificial intelligence techniques in the AEC/FM industry	주변	K	범용				
+2-s2.0-85125008561	2022	Integrated structural health monitoring in bridge engineering	밖	Z					
+2-s2.0-85122617097	2022	Intelligent bridge management via big data knowledge engineering	밖	Z					
+2-s2.0-85129072290	2022	Intelligent robotic systems for structural health monitoring: Applications and future trends	주변	H	유지관리				
+2-s2.0-85130359889	2022	Knowledge synthesis of intelligent decision techniques applications in the AECO industry	밖	Z					
+2-s2.0-85132701493	2022	Linking external knowledge to heritage BIM	밖	Z					
+2-s2.0-85129466685	2022	Machine learning algorithms for monitoring pavement performance	밖	Z					
+2-s2.0-85136311338	2022	Machine learning techniques applied to construction: A hybrid bibliometric analysis of advances and future directions	주변	K	시공				
+2-s2.0-85125453759	2022	Machine learning techniques for pavement condition evaluation	밖	Z					
+2-s2.0-85129745753	2022	Multi-objective optimization for improved project management: Current status and future directions	밖	Z					
+2-s2.0-85125895378	2022	Natural language processing for smart construction: Current status and future directions	밖	Z					
+2-s2.0-85131966379	2022	Pavement roughness index estimation and anomaly detection using smartphones	밖	Z					
+2-s2.0-85133356586	2022	Planning and coordination of modular construction	밖	Z					
+2-s2.0-85121113965	2022	Predictive maintenance of pumps in civil infrastructure: State-of-the-art, challenges and future directions	밖	Z					
+2-s2.0-85123246179	2022	Probabilistic analysis of subway station excavation based on BIM-RF integrated technology	밖	Z					
+2-s2.0-85118894709	2022	Project Level Management Decisions in Construction and Rehabilitation of Flexible Pavements	밖	Z					
+2-s2.0-85124219487	2022	Real-time monitoring of construction sites: Sensors, methods, and applications	핵심	K	시공	실시간 매핑·장면 이해·측위·추적 기술 정리(위험 식별, 작업자 행동·건강)			
+2-s2.0-85138765073	2022	Recent advancements of robotics in construction	주변	I	시공				
+2-s2.0-85122124004	2022	Rule-based information extraction for mechanical-electrical-plumbing-specific semantic web	밖	Z					
+2-s2.0-85129530085	2022	Self-driving shield: Intelligent systems, methodologies, and practice	밖	Z					
+2-s2.0-85123799446	2022	Semantic segmentation of cracks: Data challenges and architecture	주변	H	유지관리				
+2-s2.0-85132876792	2022	Sensing, perception, decision, planning and action of autonomous excavators	핵심	F	시공	자율 굴착기의 감지·인지·결정·계획·실행 5단계별 공백			
+2-s2.0-85129244253	2022	Strain transfer effect on measurements with distributed fiber optic sensors	밖	Z					
+2-s2.0-85116927479	2022	Structural crack detection using deep convolutional neural networks	주변	H	유지관리				
+2-s2.0-85124042191	2022	Tag and IoT based safety hook monitoring for prevention of falls from height	주변	A	시공			IoT(비전 아님)	
+2-s2.0-85136476726	2022	Test methods for 3D printable concrete	밖	Z					
+2-s2.0-85133403559	2022	Testing automation adoption influencers in construction using light deep learning	밖	Z					
+2-s2.0-85136138228	2022	Transforming knowledge management in the construction industry through information and communications technology: A 15-year review	밖	Z					
+2-s2.0-85129347035	2022	Trustworthy AI and robotics: Implications for the AEC industry	밖	Z					
+2-s2.0-85127161864	2022	Understanding the challenges of immersive technology use in the architecture and construction industry: A systematic review	밖	Z					
+2-s2.0-85129644349	2022	Using Linked Building Data for managing temporary construction items	주변	A	시공	가설재(TCI)는 시공 계획에서 거의 다뤄지지 않지만 영향이 큼		원저(Scopus 문서 유형은 Review). 거푸집 사례	
+2-s2.0-85138449808	2022	Virtual sensing in intelligent buildings and digitalization	밖	Z					
+2-s2.0-85137271000	2022	Voice-Based Intelligent Virtual Agents (VIVA) to Support Construction Worker Productivity	밖	Z					
+2-s2.0-85135968142	2022	Wearable devices: Cross benefits from healthcare to construction	주변	C	시공			웨어러블	
+2-s2.0-85158012496	2023	3D printing facades: Design, fabrication, and assessment methods	밖	Z					
+2-s2.0-85149710962	2023	3D printing for remote housing: Benefits and challenges	밖	Z					
+2-s2.0-85143798505	2023	3D printing with cementitious materials: Challenges and opportunities for the construction sector	밖	Z					
+2-s2.0-85188347369	2023	3D reconstruction in underground utilities	주변	G	유지관리				
+2-s2.0-85151006987	2023	A multidimensional taxonomy for human-robot interaction in construction	주변	I	시공				
+2-s2.0-85160445075	2023	Applicability of smart construction technology: Prioritization and future research directions	주변	K	시공				
+2-s2.0-85150230507	2023	Application of drones in the architecture, engineering, and construction (AEC) industry	주변	G	시공				
+2-s2.0-85158063479	2023	Applications of Building information modelling in the early design stage of high-rise buildings	밖	Z					
+2-s2.0-85170214348	2023	Architectural design in collective robotic construction	밖	Z					
+2-s2.0-85166023491	2023	Architectural spatial layout planning using artificial intelligence	밖	Z					
+2-s2.0-85173164065	2023	Augmented reality technologies in construction project assembly phases	주변	D	시공			HMD와 Unity가 주로 쓰임	
+2-s2.0-85146226595	2023	Automated guided vehicles and autonomous mobile robots for recognition and tracking in civil engineering	핵심	I	시공+유지관리	AGV·AMR 시각 항법에서 인식과 추적 통합(정확도, 강건성, 실시간성)			
+2-s2.0-85159783581	2023	Automating the retrospective generation of As-is BIM models using machine learning	핵심	G	유지관리(기존 건물)	다른 데이터원 탐색, 형상과 함께 속성 추출, 기반시설 역모델링은 거의 미개척			
+2-s2.0-85148540654	2023	BIM and IoT data fusion: The data process model perspective	밖	Z					
+2-s2.0-85158877298	2023	Benefits and limitations of using low-code development to support digitalization in the construction industry	밖	Z					
+2-s2.0-85151462888	2023	Blockchain-driven integration technology for the AEC industry	밖	Z					
+2-s2.0-85145969575	2023	Challenges of urban digital twins: A systematic review and a Delphi expert survey	밖	Z					
+2-s2.0-85165533169	2023	Comparing natural language processing (NLP) applications in construction and computer science using preferred reporting items for systematic reviews (PRISMA)	밖	Z					
+2-s2.0-85163706519	2023	Computer vision applications in offsite construction	핵심	H	공장 제작	오프사이트 시공 CV는 연구가 적음. 성능 평가 용어 정리			
+2-s2.0-85173283775	2023	Constructing tomorrow: A multifaceted exploration of Industry 4.0 scientific, patents, and market trend	밖	Z					
+2-s2.0-85175019699	2023	Corrosion assessment using ground penetrating radar in reinforced concrete structures: Influential factors and analysis methods	밖	Z					
+2-s2.0-85174635240	2023	Critical success factors for implementing blockchain technology in construction	밖	Z					
+2-s2.0-85162967784	2023	Deep learning technologies for shield tunneling: Challenges and opportunities	밖	Z					
+2-s2.0-85151405349	2023	Deep learning technology for construction machinery and robotics	핵심	F	시공	데이터셋 한계, 해석 가능성 부족, 자율 지능 부족			
+2-s2.0-85142734133	2023	Deep learning-based crack segmentation for civil infrastructure: data types, architectures, and benchmarked performance	주변	H	유지관리				
+2-s2.0-85169019012	2023	Digital Twins and Blockchain technologies for building lifecycle management	밖	Z					
+2-s2.0-85146099421	2023	Digital twin enhanced BIM to shape full life cycle digital transformation for bridge engineering	밖	Z					
+2-s2.0-85147852500	2023	Digital twinning of civil infrastructures: Current state of model architectures, interoperability solutions, and future prospects	밖	Z					
+2-s2.0-85150335651	2023	Digital twins for asset management: Social network analysis-based review	밖	Z					
+2-s2.0-85172360777	2023	Enabling technologies for remote and virtual inspection of building work	핵심	H	시공	원격 검측 기술의 부재별 적합성(영상 중심), 자동화·실시간성·제도			
+2-s2.0-85158880354	2023	Enhancing information standards for automated construction waste quantification and classification	밖	Z					
+2-s2.0-85148325421	2023	Existing assets maintenance management: Optimizing maintenance procedures and costs through BIM tools	밖	Z					
+2-s2.0-85167996663	2023	Extended reality in AEC	주변	D	범용				
+2-s2.0-85160999305	2023	Extensions of the resource-constrained project scheduling problem	밖	Z					
+2-s2.0-85160810683	2023	From 3D point clouds to HBIM: Application of Artificial Intelligence in Cultural Heritage	주변	G	유지관리				
+2-s2.0-85146055746	2023	Gaps and requirements for applying automatic architectural design to building renovation	밖	Z					
+2-s2.0-85162888147	2023	Graph neural networks for construction applications	주변	K	범용				
+2-s2.0-85159577945	2023	Human-building interaction for indoor environmental control: Evolution of technology and future prospects	밖	Z					
+2-s2.0-85149442727	2023	Human–robot collaboration for on-site construction	주변	I	시공				
+2-s2.0-85141285291	2023	Impact of agent-based simulation on novice architects' workplace design exploration and trade-offs	밖	Z					
+2-s2.0-85162214556	2023	Integration of BIM and Value Model for Sustainability Assessment for application in bridge projects	밖	Z					
+2-s2.0-85151277622	2023	Integration of building information modeling and project management in construction project life cycle	밖	Z					
+2-s2.0-85172862754	2023	Intelligent paving and compaction technologies for asphalt pavement	밖	Z					
+2-s2.0-85144525807	2023	Intelligent technologies for construction machinery using data-driven methods	주변	F	시공				
+2-s2.0-85149308499	2023	Key functions in BIM-based AR platforms	주변	D	시공				
+2-s2.0-85142489793	2023	Knowledge driven approach for smart bridge maintenance using big data mining	밖	Z					
+2-s2.0-85149406359	2023	Lean manufacturing applications in prefabricated construction projects	밖	Z					
+2-s2.0-85164979602	2023	Machine learning in architecture	밖	Z					
+2-s2.0-85174848723	2023	Mathematical modelling and simulation in construction supply chain management	밖	Z					
+2-s2.0-85163515247	2023	Non-sequential assembly of mortise and tenon joints	밖	Z					
+2-s2.0-85144071681	2023	Nozzle criteria for enhancing extrudability, buildability and interlayer bonding in 3D printing concrete	밖	Z					
+2-s2.0-85159160568	2023	Off-site construction with 3D concrete printing	밖	Z					
+2-s2.0-85161323617	2023	Operations planning and scheduling in off-site construction supply chain management: Scope definition and future directions	밖	Z					
+2-s2.0-85174699529	2023	Performance-Based Generative Design for Parametric Modeling of Engineering Structures Using Deep Conditional Generative Models	밖	Z					
+2-s2.0-85151678419	2023	Production scheduling in modular construction: Metaheuristics and future directions	밖	Z					
+2-s2.0-85142381136	2023	Recent computer vision applications for pavement distress and condition assessment	주변	H	유지관리				
+2-s2.0-85150344595	2023	Review on automated quality inspection of precast concrete components	핵심	H	공장 제작	기존 검사 방법과 실제 요구의 간극(치수·표면 품질)			
+2-s2.0-85160772279	2023	Risk factors and emerging technologies for preventing falls from heights at construction sites	핵심	A	시공	난간 누락이 가장 흔한 추락 위험. 단일 기술로는 부족하고 통합 시스템 필요			
+2-s2.0-85141278750	2023	Suitability analysis of consensus protocols for blockchain-based applications in the construction industry	밖	Z					
+2-s2.0-85149177955	2023	Systematic and scientometric analyses of predictors for modelling water pipes deterioration	밖	Z					
+2-s2.0-85141797958	2023	Systematic search and mapping review of the concrete delivery problem (CDP): Formulations, objectives, and data	밖	Z					
+2-s2.0-85159091064	2023	Technologies for digital twin applications in construction	주변	G	시공				
+2-s2.0-85161057019	2023	Technologies, levels and directions of crane-lift automation in construction	주변	I	시공				
+2-s2.0-85154031253	2023	Tunnel lining detection and retrofitting	밖	Z					
+2-s2.0-85162182234	2023	“Parametric and generative mechanisms for infrastructure projects”	밖	Z					
+2-s2.0-85195867528	2024	A blockchain-based engineering design review service trading scheme for digital building permits	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85199373056	2024	A science mapping lens on discrete event simulation applications in construction engineering and management	밖	Z					
+2-s2.0-85192271375	2024	AI integration in construction safety: Current state, challenges, and future opportunities in text, vision, and audio based applications	핵심	A	시공	고품질 데이터, 의미 표현, 가려진 객체 탐지가 과제. 음향 AI 미개척. 통합 AI 시스템 필요			
+2-s2.0-85201754166	2024	Additive manufacturing of natural materials	밖	Z					
+2-s2.0-85196745208	2024	Advancements in digital twin modeling for underground spaces and lightweight geometric modeling technologies	밖	Z					
+2-s2.0-85181707176	2024	Advances in automatic identification of road subsurface distress using ground penetrating radar: State of the art and future trends	밖	Z					
+2-s2.0-85188711100	2024	Advancing railway track health monitoring: Integrating GPR, InSAR and machine learning for enhanced asset management	밖	Z					
+2-s2.0-85193759073	2024	Applications and challenges of digital twin intelligent sensing technologies for asphalt pavements	밖	Z					
+2-s2.0-85196828831	2024	Applications of blockchain for construction project procurement	밖	Z					
+2-s2.0-85179137336	2024	Applications of existing and emerging construction safety technologies	주변	A	시공				
+2-s2.0-85206312535	2024	Artificial intelligence driven tunneling-induced surface settlement prediction	밖	Z					
+2-s2.0-85199928678	2024	Artificial intelligence for deconstruction: Current state, challenges, and opportunities	밖	Z					
+2-s2.0-85201590345	2024	Artificial intelligence in structural health management of existing bridges	밖	Z					
+2-s2.0-85203523353	2024	Automated measurement of cable shape in super-long span suspension bridges	밖	Z					
+2-s2.0-85205307707	2024	Automated pavement detection and artificial intelligence pavement image data processing technology	주변	H	유지관리				
+2-s2.0-85182277157	2024	Autonomous steering control for tunnel boring machines	밖	Z					
+2-s2.0-85184040952	2024	Autonomous view planning methods for 3D scanning	핵심	G	범용	미지 형상 자율 시점 계획의 실제 적용 한계			
+2-s2.0-85196155213	2024	BIM-based quantity takeoff: Current state and future opportunities	밖	Z					
+2-s2.0-85177843947	2024	Breaking new ground: Opportunities and challenges in tunnel boring machine operations with integrated management systems and artificial intelligence	밖	Z					
+2-s2.0-85196179929	2024	Building simulation in adaptive training of machine learning models	밖	Z					
+2-s2.0-85198577143	2024	Challenges of on-site implementation of mixed reality technology in the AECO industry	주변	D	시공	MR 현장 적용의 단계별(준비·시공·운영) 과제			
+2-s2.0-85193838926	2024	Classification and automated quality assurance of 3D concrete printed surfaces	밖	Z					
+2-s2.0-85183966942	2024	Comprehensive analysis of BIM adoption: From narrow focus to holistic understanding	밖	Z					
+2-s2.0-85190349429	2024	Computer vision in drone imagery for infrastructure management	주변	H	유지관리				
+2-s2.0-85192466099	2024	Connecting design and fabrication through algorithms: current and future prospects for AEC	밖	Z					
+2-s2.0-85202533825	2024	Construction digital twin: a taxonomy and analysis of the application-technology-data triad	주변	G	시공				
+2-s2.0-85188417106	2024	Construction supply chain risk management	밖	Z					
+2-s2.0-85196221901	2024	Contribution of production processes in environmental impact of low carbon materials made by additive manufacturing	밖	Z					
+2-s2.0-85194405686	2024	Crane safety operations in modular integrated construction	주변	B	시공	모듈러 시공 크레인 안전 연구 분류와 방향			
+2-s2.0-85201695100	2024	Data-driven AI algorithms for construction machinery	주변	F	시공				
+2-s2.0-85196209189	2024	Decoding a decade: The evolution of artificial intelligence in security, communication, and maintenance within the construction industry	밖	Z					
+2-s2.0-85203552750	2024	Deep learning applications for point clouds in the construction industry	핵심	K	시공	점군 DL의 데이터셋(실측·합성)과 모델 성능 문제			
+2-s2.0-85203881574	2024	Deep learning-based intelligent detection of pavement distress	주변	H	유지관리				
+2-s2.0-85195874316	2024	Deep learning-based object detection for dynamic construction site management	핵심	K	시공	개념 단순화, 약한 데이터 기반, 주관적 평가·제한된 시나리오. 대규모 공개 데이터셋과 통합 현장 관리 시나리오 필요			
+2-s2.0-85187196549	2024	Deep learning-based structural health monitoring	밖	Z					
+2-s2.0-85196420143	2024	Deployable scissor structures: Classification of modifications and applications	밖	Z					
+2-s2.0-85201517432	2024	Deployment strategies for lightweight pavement defect detection using deep learning and inverse perspective mapping	주변	H	유지관리				
+2-s2.0-85178095290	2024	Digital technologies in architecture, engineering, and construction	밖	Z					
+2-s2.0-85201183746	2024	Digital twin applications for overcoming construction supply chain challenges	밖	Z					
+2-s2.0-85178659706	2024	Digital twin for intelligent tunnel construction	밖	Z					
+2-s2.0-85207335633	2024	Digital twin technology for road pavement	밖	Z					
+2-s2.0-85188029504	2024	Digital twins in the built environment: Definition, applications, and challenges	밖	Z					
+2-s2.0-85195402258	2024	Disassembly calculation criteria and methods for circular construction	밖	Z					
+2-s2.0-85185554216	2024	Domain-specific language models pre-trained on construction management systems corpora	밖	Z					
+2-s2.0-85188553889	2024	Ethics of artificial intelligence and robotics in the architecture, engineering, and construction industry	밖	Z					
+2-s2.0-85188626227	2024	Exploring three pillars of construction robotics via dual-track quantitative analysis	주변	I	시공				
+2-s2.0-85196272593	2024	Fabrication methods of shell structures	밖	Z					
+2-s2.0-85204581587	2024	Five-Year Review of Blockchain in Construction Management: Scientometric and Thematic Analysis (2017-2023)	밖	Z					
+2-s2.0-85184990773	2024	Free-shape contour control for excavators based on cross-coupling and double error pre-compensation	밖	Z					
+2-s2.0-85206910365	2024	From raw to refined: Data preprocessing for construction machine learning (ML), deep learning (DL), and reinforcement learning (RL) models	주변	K	범용				
+2-s2.0-85197636420	2024	Genealogy of construction robotics	주변	I	시공				
+2-s2.0-85176294861	2024	Generative AI design for building structures	밖	Z					
+2-s2.0-85199693517	2024	Generative Design in the Built Environment	밖	Z					
+2-s2.0-85181776801	2024	Generative adversarial networks in construction applications	주변	K	범용				
+2-s2.0-85204421913	2024	Human-centered intelligent construction for sustainable cities	주변	E	시공				
+2-s2.0-85202073742	2024	Human-robot collaboration for building deconstruction in the context of construction 5.0	주변	I	해체				
+2-s2.0-85181756931	2024	Human-robot collaboration for modular construction manufacturing: Review of academic research	주변	I	공장 제작				
+2-s2.0-85181587688	2024	Improved coverage path planning for indoor robots based on BIM and robotic configurations	주변	I	시공				
+2-s2.0-85195170204	2024	Information management for digital asset development and delivery	밖	Z					
+2-s2.0-85201508509	2024	Integrating Design for Manufacture and Assembly (DfMA) with BIM for infrastructure	밖	Z					
+2-s2.0-85195680127	2024	Knowledge graph of building information modelling (BIM) for facilities management (FM)	밖	Z					
+2-s2.0-85198723503	2024	Knowledge management for off-site construction	밖	Z					
+2-s2.0-85201413870	2024	Knowledge-based semantic web technologies in the AEC sector	밖	Z					
+2-s2.0-85181774055	2024	Large-scale 3D wall printing: From concept to reality	밖	Z					
+2-s2.0-85187960242	2024	Machine learning in construction and demolition waste management: Progress, challenges, and future directions	밖	Z					
+2-s2.0-85208397405	2024	Mixed Reality-based MEP construction progress monitoring: Evaluation of methods for mesh-to-mesh comparison	핵심	G	시공			원저(Scopus 문서 유형은 Review). MR 기기가 만든 메시와 BIM 메시를 비교해 MEP 진도·편차 판정	
+2-s2.0-85196192588	2024	Monitoring and evaluating the status and behaviour of construction workers using wearable sensing technologies	주변	C	시공			웨어러블	
+2-s2.0-85184995137	2024	Pavement crack instance segmentation using YOLOv7-WMF with connected feature fusion	주변	H	유지관리				
+2-s2.0-85206903768	2024	Performance evaluation of struck-by-accident alert systems for road work zone safety	핵심	B	시공	충돌 경보 시스템의 성능 평가가 불완전(ALOPA 기준). 가상 환경에서 인적 요인을 평가하는 추세. 성능 기반 평가 필요			
+2-s2.0-85189524707	2024	Predictive models in machine learning for strength and life cycle assessment of concrete structures	밖	Z					
+2-s2.0-85193257421	2024	Prospects for purely electric construction machinery: Mechanical components, control strategies and typical machines	밖	Z					
+2-s2.0-85182421824	2024	RFID localization in construction with IoT and security integration	주변	K	시공				
+2-s2.0-85203460190	2024	Recent advances on inspection, monitoring, and assessment of bridge cables	밖	Z					
+2-s2.0-85187208727	2024	Review of simultaneous localization and mapping (SLAM) for construction robotics applications	핵심	K	시공	매일 바뀌는 현장에서의 SLAM과 현장 환경 평가			
+2-s2.0-85187193831	2024	Rutting measurement in asphalt pavements	밖	Z					
+2-s2.0-85183962724	2024	Self-sensing cement composites for structural health monitoring: From know-how to do-how	밖	Z					
+2-s2.0-85193507896	2024	Shifting research from defect detection to defect modeling in computer vision-based structural health monitoring	주변	H	유지관리				
+2-s2.0-85208582452	2024	Smart embedded technologies and materials for enhanced pavement management	밖	Z					
+2-s2.0-85193473666	2024	Stereoscopic monitoring of transportation infrastructure	주변	H	유지관리	위성·항공·지상·탑재 모니터링을 통합한 관점		스테레오 관련	
+2-s2.0-85205284947	2024	Strategic alignment of BIM and big data through systematic analysis and model development	밖	Z					
+2-s2.0-85181711469	2024	Surface defect detection of civil structures using images: Review from data perspective	주변	H	유지관리				
+2-s2.0-85190066113	2024	Sustainability and building information modelling: Integration, research gaps, and future directions	밖	Z					
+2-s2.0-85203869356	2024	Techniques and strategies in extrusion based 3D concrete printing of complex components to prevent premature failure	밖	Z					
+2-s2.0-85194878152	2024	Technology adoption in the construction industry (1999–2023): Science mapping and visualization	밖	Z					
+2-s2.0-85177618787	2024	Text mining and natural language processing in construction	밖	Z					
+2-s2.0-85191657463	2024	Towards innovative and sustainable buildings: A comprehensive review of 3D printing in construction	밖	Z					
+2-s2.0-85192007329	2024	Tower crane safety technologies: A synthesis of academic research and industry insights	핵심	B	시공	데이터 완전성·범위, 실제 적용, 해체 단계, 정확도·신뢰성, 보안의 6개 공백			
+2-s2.0-85201510608	2024	UAV-based studies in railway infrastructure monitoring	주변	H	유지관리				
+2-s2.0-85200916799	2024	Understanding construction workers’ cognitive processes under risky scenarios through electroencephalography	밖	Z					
+2-s2.0-85185889704	2024	Unmanned aerial vehicle-based as-built surveys of buildings	핵심	G	범용(기존 건물)	UAV 재구성 품질 요인(경로, 중첩, 거리)의 정량 평가와 데이터 요구 스키마			
+2-s2.0-85175569279	2024	Vision-based excavator pose estimation for automatic control	핵심	F	시공	자동 제어용 비전 자세 측정의 요구·과제 4개. 마커 방식과 딥러닝 방식 비교			
+2-s2.0-85188808246	2024	Width estimation of hidden cracks in tunnel lining based on time-frequency analysis of GPR data and back propagation neural network optimized by genetic algorithm	밖	Z					
+2-s2.0-105014516941	2025	AI applications for structural design automation	밖	Z					
+2-s2.0-105003159566	2025	AI in automated sustainable construction engineering management	밖	Z					
+2-s2.0-105007986917	2025	AI-driven generative design and optimization in prefabricated construction	밖	Z					
+2-s2.0-85210061258	2025	Additive manufacturing in the construction industry	밖	Z					
+2-s2.0-105012978964	2025	Advancements and challenges in earthmoving equipment automation using core technologies	주변	F	시공				
+2-s2.0-105015495140	2025	Advances in smart technologies and materials for automated asphalt pavement inspection: Toward transport infrastructure digitalisation	밖	Z					
+2-s2.0-105017714055	2025	Advancing graph-supported machine learning in generative design for architectural engineering	밖	Z					
+2-s2.0-105007063555	2025	Advancing polymer composites in civil infrastructure through 3D printing	밖	Z					
+2-s2.0-105011156192	2025	Advancing robotic assembly in construction: Innovations, challenges, and opportunities	주변	I	시공				
+2-s2.0-85216308491	2025	Application of digitalization and computerization technology in road construction	밖	Z					
+2-s2.0-105011405295	2025	Architecture of tomorrow: The construction industry in the era of artificial intelligence	밖	Z					
+2-s2.0-85217977084	2025	Artificial intelligence in construction: Topic-based technology mapping based on patent data	밖	Z					
+2-s2.0-85216084977	2025	Artificial intelligence in offsite and modular construction research	밖	Z					
+2-s2.0-85216087973	2025	Artificial intelligence-enhanced non-destructive defect detection for civil infrastructure	밖	Z					
+2-s2.0-85211066748	2025	Augmented reality in U.S. Construction: Trends and future directions	주변	D	시공				
+2-s2.0-105000295101	2025	Automated region extraction and displacement detection for paving blocks adjacent to deep excavation using photogrammetry	핵심	H	시공			원저(Scopus 문서 유형은 Review). 사진측량 점군으로 굴착 인접 보도블록 변위 자동 탐지	
+2-s2.0-105009868489	2025	Automatic floor plan analysis: Datasets, methods, and applications (2000–2025)	밖	Z					
+2-s2.0-105002327916	2025	Automating construction contract review using knowledge graph-enhanced large language models	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85213264469	2025	Automation in manufacturing and assembly of industrialised construction	주변	I	공장 제작				
+2-s2.0-85211971854	2025	Automation in tower cranes over the past two decades (2003–2024)	주변	I	시공				
+2-s2.0-105001043945	2025	BIM, IoT, and GIS integration in construction resource monitoring	주변	E	시공				
+2-s2.0-105014616476	2025	Beyond barriers: Stage-based and pathway-oriented conceptual model of resistance to BIM innovation	밖	Z					
+2-s2.0-85216128189	2025	Blockchain applications in the construction supply chain	밖	Z					
+2-s2.0-105007779382	2025	Bluetooth low energy for indoor positioning: Challenges, algorithms and datasets	주변	K	범용(실내)				
+2-s2.0-105002021615	2025	Bridge management with AI, UAVs, and BIM	주변	H	유지관리				
+2-s2.0-105004415054	2025	CircularBIM: Future needs at the convergence of building information modelling and the circular economy	밖	Z					
+2-s2.0-105000455388	2025	Common data environment for digital twins from building to city levels	밖	Z					
+2-s2.0-105013680425	2025	Concrete 3D printing and digital fabrication technologies for bridge construction	밖	Z					
+2-s2.0-85210759341	2025	Damage detection in concrete structures with multi-feature backgrounds using the YOLO network family	주변	H	유지관리				
+2-s2.0-85218173291	2025	Deep learning for crack segmentation: Redundant-to-effective feature transformation	주변	H	유지관리				
+2-s2.0-85210275637	2025	Deep learning for safety risk management in modular construction: Status, strengths, challenges, and future directions	주변	A	공장 제작				
+2-s2.0-105005599125	2025	Design science research (DSR) in construction: Theoretical conceptualization of practice and practical realization of theory	밖	Z					
+2-s2.0-105008559133	2025	Digital technologies for monitoring hazardous area entry in construction sites	핵심	B	시공	위험구역 진입 감시에서 CV·IoT의 한계와 동적 현장 배치의 어려움. 지능화, 배치 전략, 안전교육 연계			
+2-s2.0-105012313291	2025	Digital twin modelling approaches and applications in urban infrastructure operations and maintenance	밖	Z					
+2-s2.0-86000180143	2025	Digitizing contract administration via electroencephalography: Exploring the brain-behavior link in contract clause review	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-85219037369	2025	Drone-based bridge inspections: Current practices and future directions	주변	H	유지관리				
+2-s2.0-105014924146	2025	Electric vehicle charging infrastructure design: Expertise, methods, and challenges	밖	Z					
+2-s2.0-105008968643	2025	Electroencephalography (EEG) for psychological hazards and mental health in construction safety automation: Algorithmic Systematic Review (ASR)	밖	Z					
+2-s2.0-85218860111	2025	Embedded visualizations in crane operation user interfaces for real-time assistance	주변	B	시공			크레인 운전자 화면의 실시간 보조 표시	
+2-s2.0-105013515255	2025	Ensuring information security resilience in Digital-enabled Construction Projects (DCP) through quantum security technologies	밖	Z					
+2-s2.0-85217950468	2025	Environmental sensing in autonomous construction robots: Applicable technologies and systems	핵심	I	시공	이동 로봇의 환경 센싱(비전, 측위·매핑, 경로 계획) 연구 부족			
+2-s2.0-105004898073	2025	Façade systems for industrialised prefabricated prefinished modular construction	밖	Z					
+2-s2.0-105015300343	2025	Generative AI approaches for architectural design automation	밖	Z					
+2-s2.0-105001489626	2025	Generative AI in architectural design: Application, data, and evaluation methods	밖	Z					
+2-s2.0-85210361717	2025	High-precision 3D reconstruction of underwater concrete using integrated line structured light and stereo vision	주변	H	유지관리			원저(Scopus 문서 유형은 Review). 수중 구조광+스테레오, 복원 오차 4.48%	
+2-s2.0-105018071049	2025	Human-centric human-robot collaboration in on-site construction (2014–2024): Advances, barriers, and future directions	주변	I	시공				
+2-s2.0-85212829596	2025	Implementation of hardware technologies in offsite construction (2014–2023)	주변	I	공장 제작				
+2-s2.0-105013802572	2025	Influence of data source and volume on CNN applications in construction	핵심	K	시공	데이터 단일 출처가 75%. 공개 데이터·사전학습 모델과 다중 출처 검증 필요			
+2-s2.0-105001589834	2025	Intelligent construction technology for reservoir dams	밖	Z					
+2-s2.0-105014735925	2025	Leveraging digital enabling technologies for integrating climate adaptation and mitigation in urban design	밖	Z					
+2-s2.0-105004550578	2025	Lunar base infrastructure construction: Challenges and future directions	밖	Z					
+2-s2.0-85217438287	2025	Machine intelligence for interpretation and preservation of built heritage	밖	Z					
+2-s2.0-86000615399	2025	Machine learning applications in designing cementitious materials	밖	Z					
+2-s2.0-105001049451	2025	Machine learning for generative architectural design: Advancements, opportunities, and challenges	밖	Z					
+2-s2.0-85216704505	2025	Machine learning method for As-Is tunnel information model reconstruction	주변	G	유지관리				
+2-s2.0-105010558908	2025	Machine learning-driven processes in architectural building design	밖	Z					
+2-s2.0-105008517735	2025	Multi-source data-driven intelligent analysis and decision optimization for high-density pedestrian flows in urban public spaces	밖	Z					
+2-s2.0-85211588383	2025	Neural topic modeling of machine learning applications in building: Key topics, algorithms, and evolution patterns	밖	Z					
+2-s2.0-85215132079	2025	Optimizing Railway Track Tamping and Geometry Fine-Tuning Allocation Using a Neural Network-Based Solver	밖	Z					
+2-s2.0-105002875810	2025	Parallel simulation and prediction techniques for digital twins in urban underground spaces	밖	Z					
+2-s2.0-105000898942	2025	Real-time bridge disaster management: Enabling technology and application framework	밖	Z					
+2-s2.0-85216592794	2025	Robotic motion planning for autonomous in-situ construction of building structures	주변	I	시공				
+2-s2.0-85212092174	2025	Sensor adoption in the construction industry: Barriers, opportunities, and strategies	주변	K	시공				
+2-s2.0-105013569107	2025	Sewer pipeline condition assessment and defect detection using computer vision	주변	H	유지관리				
+2-s2.0-105008272606	2025	Strategic planning and control in industrialized construction	밖	Z					
+2-s2.0-105002568005	2025	Systematic analysis of large language models for automating document-to-smart contract transformation	밖	Z					
+2-s2.0-105001542653	2025	Towards an integrative framework for BIM and artificial intelligence capabilities in smart architecture, engineering, construction, and operations projects	밖	Z					
+2-s2.0-85215868770	2025	Towards worker-centric construction scene understanding: Status quo and future directions	핵심	E	시공	장면 요소 5개(신호·픽셀·객체·관계·사건) 정리, 미래 방향 7개			
+2-s2.0-105003564241	2025	Transfer learning for smart construction: Advances and future directions	주변	K	시공				
+2-s2.0-105007427060	2025	UAV-based deep learning applications for automated inspection of civil infrastructure	주변	H	유지관리				
+2-s2.0-105003799132	2025	Unified framework for digital twins of bridges	밖	Z					
+2-s2.0-105004682579	2025	VIF–TOPSIS coupling algorithm for image quality assessment in smart construction site management	핵심	K	시공			원저(Scopus 문서 유형은 Review). 무참조 감시 영상 품질 평가	
+2-s2.0-105015356900	2025	Virtual worlds in AECO operations: Towards a human-centric framework	밖	Z					
+2-s2.0-105012638269	2025	Wearable sensing devices for construction safety: Research trends, applications, challenges, and future opportunities	주변	C	시공	웨어러블 운용 한계 4개, 도입 장벽 6개		웨어러블	
+2-s2.0-105029773229	2026	3D printed high-performance fiber-reinforced cementitious composites (3DP-HPFRCC): Fresh, mechanical, and microstructural properties	밖	Z					
+2-s2.0-105039829141	2026	3D-to-4D printing technologies in construction: Roadmap review of current status and potential applications	밖	Z					
+2-s2.0-105030339701	2026	AI-driven extraction of electrical circuits from floorplans for BIM	밖	Z					
+2-s2.0-105020874041	2026	Adopting modular integrated construction (MiC) in road pavement construction: Concepts, applications, and challenges	밖	Z					
+2-s2.0-105037809865	2026	Advancing exoskeleton research in construction: Systematic review	주변	C	시공				
+2-s2.0-105038666218	2026	Artificial intelligence in masonry engineering: Comprehensive review of design, analysis, and maintenance applications	밖	Z					
+2-s2.0-105029714444	2026	Asphalt mixture compaction based on motion sensing intelligent aggregate (MSIA)	밖	Z					
+2-s2.0-105034591492	2026	Automated compliance checking across the building lifecycle: Systematic and semantic review integrating PRISMA and deep search	밖	Z					
+2-s2.0-105046394778	2026	Automated compliance checking in AEC in the era of AI and LLMs: A review (2022–2025)	밖	Z					
+2-s2.0-105049984616	2026	Automated proximity monitoring and warning in construction: systematic review	핵심	B	시공	근접 감시·경고는 정확도 낮음, 장애물에 민감, 실시간성 부족. 3D 객체·자세 탐지, 실시간 3D 복원·국소 갱신, 실시간 멀티모달 융합 필요			
+2-s2.0-105026855247	2026	Automated scan-to-BIM for construction digital transformation: Conceptual framework, processing methods and best-practice guidelines	핵심	G	범용	자동 Scan-to-BIM의 개념 모델과 4단계 지침. 규칙 기반에서 AI로 전환			
+2-s2.0-105045682465	2026	BIM-IoT-Blockchain Integration in the Construction Industry: Critical Review (2017–2025)	밖	Z					
+2-s2.0-105034904846	2026	BIM-LLM integration in AECO workflows: Applications, validation, and future directions	밖	Z					
+2-s2.0-105020816511	2026	Bridging the research–practice gap in construction contract management with NLP and LLMs	밖	Z					
+2-s2.0-105050285907	2026	Comprehensive graph-based digital twin for correlation analysis of heterogeneous road infrastructure data	밖	Z					
+2-s2.0-105034908016	2026	Comprehensive review of AI-driven models for sewer condition assessment with defect analysis	밖	Z					
+2-s2.0-105027736269	2026	Comprehensive review of robotic wire arc additive manufacturing for steel structures: Process, material behaviour, structural applications and pathways to automated construction	밖	Z					
+2-s2.0-105034473787	2026	Computational Design Methods for geometry-driven upcycling of found objects in construction	밖	Z					
+2-s2.0-105029512624	2026	Computer vision for infrastructure defect detection: Methods and trends	주변	H	유지관리				
+2-s2.0-105048750762	2026	Computer-aided architectural design for building façades: Systematic literature review	밖	Z					
+2-s2.0-105029020064	2026	Construction productivity and digital technologies	주변	E	시공				
+2-s2.0-105034462506	2026	Control strategies for Cellular Automata-based generative design in architecture and urbanism	밖	Z					
+2-s2.0-105037446589	2026	Conversational programming for structural model review and editing via conversational corrective grounding (CCG)	밖	Z				리뷰 아님(제목의 review는 설계·계약 검토)	
+2-s2.0-105037063600	2026	Deep learning and digital twin driven structural health monitoring of masonry structures: Progress and challenges	밖	Z					
+2-s2.0-105046461051	2026	Deep learning for 3D point cloud processing in construction: PRISMA-based systematic review (2016–2025)	핵심	K	시공	노이즈·불완전·의미 부족 점군. 납품물 지향 종단 자동화			
+2-s2.0-105034587692	2026	Deep learning-based computer vision methods for shield tunnel defect recognition	주변	H	유지관리				
+2-s2.0-105044205120	2026	Deep learning-based geometrically accurate reverse modeling of offshore oil platforms from 3D point clouds	주변	G	유지관리				
+2-s2.0-105046201510	2026	Dialectical systems framework for LLM applications in intelligent construction and operation	밖	Z					
+2-s2.0-105048998307	2026	Digital technologies for construction project delay mitigation: mechanism-based and scientometric framework	밖	Z					
+2-s2.0-105045428354	2026	Digital transformation of construction quality management: Systematic review of adoption and governance	밖	Z					
+2-s2.0-105051054047	2026	Digital twins for building operation and maintenance: A scoping review (2019–2025)	밖	Z					
+2-s2.0-105034592202	2026	Digital twins in offsite construction: Current implementations, challenges, and future pathways	주변	G	공장 제작				
+2-s2.0-105019960379	2026	Disruptions and resilience in construction supply chains	밖	Z					
+2-s2.0-105029556819	2026	Distributed acoustic sensing for monitoring engineering infrastructure: Mechanisms, signal analytics, and applications	밖	Z					
+2-s2.0-105025954471	2026	Distributed fiber optic sensors for monitoring cracks in civil infrastructure	밖	Z					
+2-s2.0-105037079903	2026	Electrified roadway systems with wireless power transfer for electric mobility: Research perspectives, gaps, and recommendations	밖	Z					
+2-s2.0-105046072832	2026	Evolution of automated crack, pothole, and roughness detection and assessment for flexible pavements: state-of-the-art review	주변	H	유지관리				
+2-s2.0-105039284030	2026	Evolving text-based technologies for intelligent construction project management	밖	Z					
+2-s2.0-105041957026	2026	Explainable artificial intelligence in construction engineering and management: Review of applications, trends, and opportunities	주변	K	시공				
+2-s2.0-105029765228	2026	From conventional brain–computer interfaces to gen-AI–powered systems for advancing construction safety management	주변	C	시공				
+2-s2.0-105034475014	2026	Human digital twin for optimizing labor productivity in construction 5.0	주변	C	시공				
+2-s2.0-105046126329	2026	Human–AI collaboration in architectural design: Interaction, design process and controllability	밖	Z					
+2-s2.0-105029752914	2026	Human–AI communication parameters for reproducible text-to-image workflows in AEC design across academia and practice	밖	Z					
+2-s2.0-105034581971	2026	Indoor 3D point cloud reconstruction for scan-to-BIM automation	핵심	G	범용(실내)	실내 Scan-to-BIM 자동화의 데이터 품질과 모델링 복잡도			
+2-s2.0-105029748072	2026	Indoor scan-to-BIM automation: From mobile perception to 3D building modelling	핵심	G	범용(실내)	모바일 LiDAR 기반 실내 Scan-to-BIM 전 과정과 벤치마크 데이터셋			
+2-s2.0-105023833820	2026	Information requirements for the development of construction vehicle guidance systems	주변	F	시공				
+2-s2.0-105042277712	2026	Intelligent multi-objective design of transverse pre-stressed underground structures via surrogate modeling and pareto-guided reinforcement learning	밖	Z					
+2-s2.0-105035222189	2026	Localization and navigation of construction robots: A human-centric review	핵심	I	시공	비정형 현장에서 로봇 측위·항법. 사람 인지 능력 부족			
+2-s2.0-105029759858	2026	Mapping digital twin applications in infrastructure and the built environment across research types, methods, sectors, phases, and scales	밖	Z					
+2-s2.0-105050677244	2026	Multi-robot cluster additive manufacturing: review of pathways, enabling technologies, and construction-aware deployment	밖	Z					
+2-s2.0-105043932647	2026	Optical sensor-enabled automated visual inspection of underwater critical infrastructure	주변	H	유지관리				
+2-s2.0-105034915859	2026	Pavement maintenance: Traditional methods, intelligent solutions, and 3D printing applications	밖	Z					
+2-s2.0-105034592521	2026	Performance benchmarking of scan-to-HBIM workflows for cultural heritage (2012-2025)	주변	G	유지관리				
+2-s2.0-105034486727	2026	Physics-informed diffusion for visible-to-infrared domain translation of pavement crack images	주변	H	유지관리				
+2-s2.0-105038439559	2026	Point cloud and multi-source data fusion in the AEC industry: Systematic review	핵심	K	시공+유지관리	교차 모달 표현 학습, 시공간 일관성, 이종 스트림 처리, 구성 간 일반화			
+2-s2.0-105034592157	2026	Prefabricated Buildings: Cross-Database CiteSpace Bibliometric Analysis of Research Trends and Hotspots	밖	Z					
+2-s2.0-105019742141	2026	Quadruped robot-enabled framework for intelligent sidewalk condition monitoring	주변	H	유지관리				
+2-s2.0-105044274815	2026	Reproducible AI-assisted systematic review pipeline applied to digital twins for bridge predictive maintenance and lifecycle management	밖	Z					
+2-s2.0-105035594550	2026	Review of AI–IoT frameworks for modular integrated construction: Toward zero-waiting coordination	밖	Z					
+2-s2.0-105036101966	2026	Review of vision-based AI approaches for infrastructure inspection using Uncrewed Aircraft Systems (UAS)	주변	H	유지관리				
+2-s2.0-105049183089	2026	Robotic modular assembly in harsh environments: Framework-driven conceptual review	주변	I	시공				
+2-s2.0-105042088082	2026	Robotics and AI for prefabrication of steel building components: Systematic review and future roadmap	주변	I	공장 제작				
+2-s2.0-105043680409	2026	Scan-to-engineering: From reality capture to digital models in civil engineering	핵심	G	시공+유지관리	의사결정 수준 활용 부족. 관측성, 자동화, 불확실성 추적, 상호운용, 갱신 가능한 디지털 트윈			
+2-s2.0-105029717223	2026	Sustainability in civil construction through industry 4.0 and BIM technologies	밖	Z					
+2-s2.0-105034620029	2026	Sustainable road infrastructure operation via intelligent UAV inspection systems: Trends, challenges, and research opportunities	주변	H	유지관리				
+2-s2.0-105029766582	2026	Text-based automatic knowledge graph construction for road infrastructure operations management	밖	Z					
+2-s2.0-105050546675	2026	Toward autonomous infrastructure management: Agentic AI for structural health monitoring, robotics, and digital twins	밖	Z					
+2-s2.0-105023838102	2026	Two-stage automated generation of frame structure topology using graph neural networks	밖	Z					
+2-s2.0-105052312738	2027	Artificial intelligence for two-dimensional AEC drawing analysis: Systematic and critical review	밖	Z					
+2-s2.0-105052124772	2027	BIM and AI for optimising energy, economy, and environment in construction projects: Systematic review (2014–2026)	밖	Z					
+2-s2.0-105051850916	2027	Beyond interoperability: a systematic review of semantic web technologies for BIM-enabled facility management (2019–2025)	밖	Z					
+2-s2.0-105052507168	2027	Review of material–process–structure synergy and engineering applications of spray-based 3D concrete printing	밖	Z					
+2-s2.0-105051543001	2027	Toward intelligent safety assurance in construction human-robot collaboration	주변	A	시공	HRC 안전 연구의 54%가 실험실 검증에 그침. 감지·예측·제어의 불확실성을 통합한 폐루프가 적음			

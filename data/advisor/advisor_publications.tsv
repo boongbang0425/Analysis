@@ -1,0 +1,31 @@
+# 이지희 교수 논문 목록. 열 구분은 탭.
+# 출처: P = data/advisor/ProfessorPapers.txt (학교 프로필), G = Google Scholar 프로필 user=631KvNIAAAAJ (2026-10-16 조회, 최신순 20편만 보임)
+# 유형: 논문 = 학술지·학회 논문, 프로필 = 프로필의 연구 방향 문장 (논문은 아니지만 VR/AR처럼 논문 목록에 없는 방향을 담는다)
+# 목록은 완전하지 않다. Scholar의 "더 보기" 뒤 논문과 국내 학술지는 빠져 있다. 새 논문은 아래에 행을 더한다.
+연도	유형	제목	게재처	출처
+2026	논문	A Generative AI Framework for Developing Optical Illusion-based Construction Safety Signs	Developments in the Built Environment	G
+2026	논문	Evaluating large language models (LLMs) for semantic interpretation of IFC-based BIM data	Automation in Construction 185	G
+2026	논문	Dual-stage graph-based association framework for cross-view person Re-Identification in construction worker monitoring	Buildings 16(4)	G
+2025	논문	Project requirements assignment using BERT-based multilabel classification and interactive mapping system	Journal of Management in Engineering 41(5)	G
+2025	논문	Inherent risks identification in a contract document through automated rule generation	Automation in Construction 172	G
+2025	논문	Quantifying project uncertainties: Leveraging historical bid and change order data for automated detection of cost and schedule impacts in new projects	Journal of Construction Engineering and Management 151(4)	G
+2024	논문	Project requirements prioritization through NLP-driven classification and adjusted work items analysis	Journal of Construction Engineering and Management 150(3)	P,G
+2024	논문	Natural Language Processing (NLP)-Driven Classification of Pre-Bid Request for Information (RFI)	Computing in Civil Engineering 2023	G
+2024	논문	Personalized Thermal Comfort Model for a Multiple Occupancy Office Building	Computing in Civil Engineering 2023	G
+2024	프로필	Human-Technology-Built Environment Interaction: AI-based unstructured construction data analysis, NLP and LLM research, VR/AR adoption on construction sites, wearable sensing for occupant comfort	ProfessorPapers.txt 연구 방향	P
+2023	논문	Proof-of-concept study for model-based construction safety diagnosis and management driven by prevention through design	Journal of Management in Engineering 39(6)	G
+2023	논문	Uncertainties prevailing in construction bid documents and their impact on project pricing through the analysis of prebid requests for information	Journal of Management in Engineering 39(6)	G
+2023	논문	Indoor environmental quality improvement in green building: Occupant perception and behavioral impact	Journal of Building Engineering 69	P,G
+2023	논문	Natural language processing-driven similar project determination using project scope statements	Journal of Management in Engineering 39(3)	P,G
+2022	논문	Integrated approach to evaluating the impact of feed-in tariffs on the life cycle economic performance of photovoltaic systems in China	Energy 254	P,G
+2022	논문	Investigation on Uncertainty in Construction Bid Documents	ICCEPM 2022	G
+2022	논문	Prevention through Design (PtD) of integrating accident precursors in BIM	ICCEPM 2022	G
+2022	논문	AI-Based Project Similarity Evaluation Model Using Project Scope Statements	ICCEPM 2022	G
+2021	논문	Construction disputes and associated contractual knowledge discovery using unstructured text-heavy data: Legal cases in the United Kingdom	Sustainability 13(16)	P,G
+2021	논문	Physiological sensing-driven personal thermal comfort modelling in consideration of human activity variations	Building Research & Information 49(5)	P,G
+2020	논문	Effective risk positioning through automated identification of missing contract conditions from the contractor's perspective: based on the FIDIC contract cases	Journal of Management in Engineering	P
+2019	논문	Korean Public Rental Housing for Residential Stability of the Younger Population: Analysis of Policy Impacts using System Dynamics	Journal of Asian Architecture and Building Engineering 18(3)	P
+2018	논문	Development of an automatic-extraction model of poisonous clauses in international construction contracts using rule-based NLP	Journal of Computing in Civil Engineering 33(3)	P
+2017	논문	Predicting project's uncertainty risk in the bidding process by integrating unstructured text data and structured numerical data using text mining	Applied Sciences 7(11)	P
+2017	논문	Establishment of growth strategies for international construction firms by exploring diversification-related determinants and their effects	Journal of Management in Engineering 33(5)	P
+2017	논문	Activity-based life cycle analysis of a curtain wall supply for reducing its environmental impact	Energy and Buildings 138	P

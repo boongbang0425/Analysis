@@ -1,0 +1,1278 @@
+# 리뷰 코퍼스(data/raw/scopus_*_20261016.csv)용 키워드 통일 규칙. config/thesaurus_rules.tsv 위에 덧붙여 적용한다. 열 구분은 탭.
+# 대부분은 표기 차이(단·복수, 약어 괄호, modelling/modeling, 하이픈)를 자동으로 찾아 만든 것이다.
+# 개념 판단이 들어간 병합: ai, iot, drone(s)·uas -> uav, gis, facilities management, offsite construction, llm, bibliometrics·scientometrics, future directions -> future research.
+# label이 다른 규칙의 replace by가 되면 build_reviews.py가 끝까지 따라가 하나로 합친다.
+label	replace by
+
+# 21st century skills
+21st-century skills	21st century skills
+
+# 3d models
+3d model	3d models
+3d-model	3d models
+
+# 3d printing
+3d printing (3dp)	3d printing
+3d-printing	3d printing
+
+# accelerometer
+accelerometers	accelerometer
+
+# accidents
+accident	accidents
+
+# achievement
+achievements	achievement
+
+# additive manufacturing
+additive manufacturing (am)	additive manufacturing
+
+# ado framework
+ado framework (antecedents, decisions, outcome)	ado framework
+ado-framework	ado framework
+
+# agent-based modeling
+agent-based modeling (abm)	agent-based modeling
+agent-based modelling	agent-based modeling
+agent-based modelling (abm)	agent-based modeling
+
+# aggregates
+aggregate	aggregates
+
+# algorithms
+algorithm	algorithms
+
+# alkali-activated materials
+alkali-activated material	alkali-activated materials
+alkali-activated materials (aams)	alkali-activated materials
+
+# analytics
+analytics (bda)	analytics
+
+# antecedents
+antecedent	antecedents
+
+# application areas
+application area	application areas
+
+# applications
+application	applications
+
+# artificial intelligence
+ai	artificial intelligence
+
+# artificial neural networks
+artificial neural network	artificial neural networks
+artificial neural network (ann)	artificial neural networks
+artificial neural networks (ann)	artificial neural networks
+
+# asphalt pavement
+asphalt pavements	asphalt pavement
+
+# assessment
+assessments	assessment
+
+# assessment tools
+assessment tool	assessment tools
+
+# augmented reality
+augmented reality (ar)	augmented reality
+
+# avatar
+avatars	avatar
+
+# barriers
+barrier	barriers
+
+# best practices
+best practice	best practices
+
+# bibliometric analysis
+bibliometric	bibliometric analysis
+bibliometric review	bibliometric analysis
+bibliometrics	bibliometric analysis
+
+# bibliometrix
+bibliometric (r-package)	bibliometrix
+
+# big data
+big-data	big data
+
+# bim
+-building information modeling (bim)	bim
+bim (building information modelling)	bim
+building information modelling (bim)	bim
+
+# blockchain
+blockchains	blockchain
+
+# blockchain technology
+blockchain technology (bct)	blockchain technology
+
+# bridge
+bridges	bridge
+
+# building
+buildings	building
+
+# building design
+building designs	building design
+
+# building envelope
+building envelopes	building envelope
+
+# building materials
+building material	building materials
+
+# built environment
+built environment (be)	built environment
+built environments	built environment
+built-environment	built environment
+
+# business models
+business model	business models
+
+# capacity building
+capacity-building	capacity building
+
+# carbon emissions
+carbon emission	carbon emissions
+
+# carbon footprint
+carbon footprint (cf)	carbon footprint
+
+# cardiovascular disease
+cardiovascular diseases	cardiovascular disease
+
+# case study
+case-study	case study
+
+# cementitious materials
+cementitious material	cementitious materials
+
+# challenges
+challenge	challenges
+
+# chatbot
+chatbots	chatbot
+
+# circular business models
+circular business model	circular business models
+
+# circular economy
+circular economy (ce)	circular economy
+
+# citespace
+cite space	citespace
+
+# civil infrastructure
+civil infrastructures	civil infrastructure
+
+# classification framework
+classification frameworks	classification framework
+
+# clinical guidelines
+clinical guideline	clinical guidelines
+
+# closed-loop supply chain
+closed loop supply chain	closed-loop supply chain
+closed-loop supply chains	closed-loop supply chain
+
+# co<sub>2</sub> emissions
+co<sub>2</sub> emission	co<sub>2</sub> emissions
+
+# communication
+communications	communication
+
+# competitive advantage
+competitive advantages	competitive advantage
+
+# composites
+composite	composites
+
+# computer vision
+computer vision (cv)	computer vision
+
+# conceptual framework
+conceptual frameworks	conceptual framework
+
+# concrete
+concretes	concrete
+
+# concrete 3d printing
+concrete 3d printing (3dp)	concrete 3d printing
+concrete 3d-printing	concrete 3d printing
+
+# connections
+connection	connections
+
+# construction 4.0
+construction 4.0 (c4.0)	construction 4.0
+
+# construction and demolition waste
+construction and demolition waste (cdw)	construction and demolition waste
+construction and demolition wastes (cdws)	construction and demolition waste
+
+# construction engineering and management
+construction engineering and management (cem)	construction engineering and management
+
+# construction engineering management
+construction engineering management(cem)	construction engineering management
+
+# construction industry
+construction industry (ci)	construction industry
+
+# construction management
+construction management (cm)	construction management
+
+# construction materials
+construction material	construction materials
+
+# construction phase
+construction phases	construction phase
+
+# construction project management
+construction project management (cpm)	construction project management
+
+# construction projects
+construction project	construction projects
+
+# construction robot
+construction robots	construction robot
+
+# construction supply chain
+construction supply chain (csc)	construction supply chain
+
+# construction supply chain management
+construction supply chain management (cscm)	construction supply chain management
+
+# construction waste
+construction wastes	construction waste
+
+# consumer behaviour
+consumer behaviours	consumer behaviour
+
+# contractor
+contractors	contractor
+
+# convolutional neural network
+convolutional neural network(cnn)	convolutional neural network
+convolutional neural networks (cnns)	convolutional neural network
+
+# corporate social responsibility
+corporate social responsibility (csr)	corporate social responsibility
+
+# cost overruns
+cost overrun	cost overruns
+
+# covid-19 pandemic
+covid 19 pandemic	covid-19 pandemic
+
+# crane operations
+crane operation	crane operations
+
+# critical infrastructure
+critical infrastructure (ci)	critical infrastructure
+critical infrastructures	critical infrastructure
+
+# critical success factors
+critical success factor	critical success factors
+critical success factors (csfs)	critical success factors
+
+# customer experience
+customer experience (cx)	customer experience
+
+# cyber threats
+cyber threat	cyber threats
+cyber- threats	cyber threats
+
+# cyber-physical systems
+cyber-physical system	cyber-physical systems
+cyber-physical system (cps)	cyber-physical systems
+cyber-physical systems (cps)	cyber-physical systems
+cyber–physical systems	cyber-physical systems
+
+# cybersecurity framework
+cybersecurity frameworks	cybersecurity framework
+
+# damage
+damages	damage
+
+# data envelopment analysis
+data envelopment analysis (dea)	data envelopment analysis
+
+# decision support
+decision-support	decision support
+
+# decision support systems
+decision support system	decision support systems
+decision support system (dss)	decision support systems
+decision-support system	decision support systems
+decision-support systems	decision support systems
+
+# decision-making
+decision making	decision-making
+
+# deep learning
+deep learning (dl)	deep learning
+deep learning(dl)	deep learning
+
+# delay
+delays	delay
+
+# design for deconstruction
+design for deconstruction (dfd)	design for deconstruction
+
+# design for disassembly
+design for disassembly (dfd)	design for disassembly
+
+# design for manufacture and assembly
+design for manufacture and assembly (dfma)	design for manufacture and assembly
+
+# design guidelines
+design guideline	design guidelines
+
+# diffusion model
+diffusion models	diffusion model
+
+# digital competence
+digital competences	digital competence
+
+# digital divide
+digital divide(s)	digital divide
+
+# digital platforms
+digital platform	digital platforms
+
+# digital supply chain
+digital supply chain (dsc)	digital supply chain
+digital supply chains	digital supply chain
+
+# digital twin
+digital twin (dt)	digital twin
+digital twins (dt)	digital twin
+digital twins (dts)	digital twin
+
+# digitalization
+digitalizations	digitalization
+
+# dimensions
+dimension	dimensions
+
+# disaster
+disasters	disaster
+
+# disruption
+disruptions	disruption
+
+# distributed ledger technology
+distributed ledger technology (dlt)	distributed ledger technology
+
+# dynamic capabilities
+dynamic capabilities (dcs)	dynamic capabilities
+
+# earthquake
+earthquakes	earthquake
+
+# economic evaluation
+economic evaluations	economic evaluation
+
+# ecosystem
+ecosystems	ecosystem
+
+# education for sustainable development
+education for sustainable development (esd)	education for sustainable development
+
+# electric vehicles
+electric vehicle	electric vehicles
+
+# embodied carbon
+embodied carbon (ec)	embodied carbon
+embodied carbons	embodied carbon
+
+# emerging markets
+emerging markets (ems)	emerging markets
+
+# emissions
+emission	emissions
+
+# emotion
+emotions	emotion
+
+# enablers
+enabler	enablers
+enabler(s)	enablers
+
+# energy modeling
+energy modelling	energy modeling
+
+# energy saving
+energy savings	energy saving
+energy-saving	energy saving
+
+# energy transition
+energy transitions	energy transition
+
+# energy-efficient building
+energy efficient buildings	energy-efficient building
+energy-efficient buildings	energy-efficient building
+
+# engineering applications
+engineering application	engineering applications
+
+# entrepreneurial ecosystem
+entrepreneurial ecosystems	entrepreneurial ecosystem
+
+# environmental impact
+environmental impact (ei)	environmental impact
+environmental impacts	environmental impact
+environmental-impact	environmental impact
+
+# environmental management
+environmental-management	environmental management
+
+# environmental sustainability
+environmental-sustainability	environmental sustainability
+
+# evaluation framework
+evaluation frameworks	evaluation framework
+
+# existing buildings
+existing building	existing buildings
+
+# exoskeleton
+exoskeletons	exoskeleton
+
+# experience
+experiences	experience
+
+# explainable ai
+explainable ai (xai)	explainable ai
+explainable artificial intelligence	explainable ai
+explainable artificial intelligence (xai)	explainable ai
+xai	explainable ai
+
+# exploratory factor analysis
+exploratory factor analysis (efa)	exploratory factor analysis
+
+# extended reality
+extended reality (xr)	extended reality
+
+# facility management
+facilities management	facility management
+facilities management (fm)	facility management
+facility management (fm)	facility management
+
+# family firm
+family firms	family firm
+
+# federated learning
+federated learning (fl)	federated learning
+federated learning(fl)	federated learning
+
+# fiber-reinforced polymer
+fiber reinforced polymer (frp)	fiber-reinforced polymer
+fiber reinforced polymers (frp)	fiber-reinforced polymer
+fiber-reinforced polymer (frp)	fiber-reinforced polymer
+fiber-reinforced polymers	fiber-reinforced polymer
+
+# fire
+fires	fire
+
+# foreign direct investment
+foreign direct investment (fdi)	foreign direct investment
+
+# fourth industrial revolution
+fourth industrial revolution (4ir)	fourth industrial revolution
+fourth industrial revolution (ir 4.0)	fourth industrial revolution
+
+# framework
+frameworks	framework
+
+# future research
+future direction	future research
+future directions	future research
+future research direction	future research
+future research directions	future research
+
+# generative adversarial networks
+generative adversarial network	generative adversarial networks
+
+# generative ai
+generative ai (genai)	generative ai
+generative artificial intelligence	generative ai
+generative artificial intelligence (ai)	generative ai
+
+# genetic algorithm
+genetic algorithm (ga)	genetic algorithm
+genetic algorithms	genetic algorithm
+
+# geographic information systems
+geographic information system	geographic information systems
+geographic information systems (gis)	geographic information systems
+geographical information system	geographic information systems
+geographical information system (gis)	geographic information systems
+geographical information systems	geographic information systems
+gis	geographic information systems
+
+# geopolymer
+geopolymers	geopolymer
+
+# graph neural network
+graph neural networks	graph neural network
+
+# green building
+green building (gb)	green building
+green buildings	green building
+
+# green construction
+green constructions	green construction
+
+# green infrastructure
+green infrastructures	green infrastructure
+
+# green roofs
+green roof	green roofs
+
+# green supply chain management
+green supply chain management (gscm)	green supply chain management
+
+# ground penetrating radar
+ground penetrating radar (gpr)	ground penetrating radar
+ground-penetrating radar	ground penetrating radar
+
+# guidelines
+guideline	guidelines
+
+# hazard
+hazards	hazard
+
+# hbim
+hbim (historic building information modelling)	hbim
+
+# health and safety
+health and safety (ehs)	health and safety
+
+# high-rise building
+high-rise buildings	high-rise building
+
+# higher education institution
+higher education institutions	higher education institution
+
+# hospital
+hospitals	hospital
+
+# human factors
+human factor	human factors
+
+# human resource development
+human resource development (hrd)	human resource development
+
+# human resource management
+human resource management (hrm)	human resource management
+
+# human-ai collaboration
+human–ai collaboration	human-ai collaboration
+
+# human-building interaction
+human building interaction	human-building interaction
+human-building interaction (hbi)	human-building interaction
+
+# human-computer interaction
+human computer interaction	human-computer interaction
+human-computer-interaction	human-computer interaction
+human–computer interaction	human-computer interaction
+human–computer interaction (hci)	human-computer interaction
+
+# human-in-the-loop
+human-in-the-loop (hitl)	human-in-the-loop
+
+# human-robot collaboration
+human-robot collaboration (hrc)	human-robot collaboration
+human–robot collaboration	human-robot collaboration
+human–robot collaboration (hrc)	human-robot collaboration
+
+# human-robot interaction
+human-robot interaction (hri)	human-robot interaction
+human–robot interaction	human-robot interaction
+
+# immersive technology
+immersive technology (imt)	immersive technology
+
+# impact
+impacts	impact
+
+# incentives
+incentive	incentives
+
+# indicators
+indicator	indicators
+
+# indoor air quality
+indoor air quality (iaq)	indoor air quality
+
+# indoor environmental quality
+indoor environmental quality (ieq)	indoor environmental quality
+
+# industrial by-products
+industrial by-product	industrial by-products
+
+# industrial control systems
+industrial control system (ics)	industrial control systems
+industrial control systems (ics)	industrial control systems
+
+# industrial internet of things
+industrial internet of things (iiot)	industrial internet of things
+
+# industrialized construction
+industrialized construction (ic)	industrialized construction
+
+# industry 4.0
+industry 4.0 (i4.0)	industry 4.0
+
+# industry foundation classes
+industry foundation classes (ifc)	industry foundation classes
+
+# information and communication technology
+information and communication technology (ict)	information and communication technology
+
+# information systems
+information system	information systems
+information systems (is)	information systems
+
+# infrared thermography
+infrared thermography (irt)	infrared thermography
+
+# innovation and infrastructure
+innovation and infrastructure (sdg9)	innovation and infrastructure
+
+# inspection
+inspections	inspection
+
+# institutions
+institution	institutions
+
+# integrated framework
+integrated frameworks	integrated framework
+
+# integrated project delivery
+integrated project delivery (ipd)	integrated project delivery
+
+# intelligent building
+intelligent buildings	intelligent building
+
+# interaction
+interactions	interaction
+
+# international business
+international business (ib)	international business
+
+# internet of things
+internet of things (iot)	internet of things
+internet-of-things (iot)	internet of things
+iot	internet of things
+iots	internet of things
+
+# intervention
+interventions	intervention
+
+# key performance indicators
+key performance indicator	key performance indicators
+
+# keywords
+keyword	keywords
+
+# knowledge gap
+knowledge gaps	knowledge gap
+
+# knowledge graph
+knowledge graphs	knowledge graph
+
+# knowledge management
+knowledge management (km)	knowledge management
+knowledge-management	knowledge management
+
+# knowledge map
+knowledge maps	knowledge map
+
+# land use
+land-use	land use
+
+# large language model
+large language model (llm)	large language model
+large language models	large language model
+large language models (llm)	large language model
+llm	large language model
+llms	large language model
+
+# latent dirichlet allocation
+latent dirichlet allocation (lda)	latent dirichlet allocation
+
+# lean construction
+lean construction (lc)	lean construction
+
+# legal framework
+legal frameworks	legal framework
+
+# life cycle
+life-cycle	life cycle
+
+# life cycle assessment
+life cycle assessment (lca)	life cycle assessment
+life-cycle assessment	life cycle assessment
+life-cycle assessment (lca)	life cycle assessment
+
+# life cycle cost
+life cycle cost (lcc)	life cycle cost
+life-cycle cost	life cycle cost
+
+# life cycle sustainability assessment
+life cycle sustainability assessment (lcsa)	life cycle sustainability assessment
+
+# literature review
+literature review (lr)	literature review
+literature reviews	literature review
+
+# local government
+local governments	local government
+
+# low carbon building
+low-carbon building	low carbon building
+low-carbon buildings	low carbon building
+
+# machine learning
+machine learning (ml)	machine learning
+machine-learning	machine learning
+
+# material passport
+material passports	material passport
+
+# maturity model
+maturity models	maturity model
+
+# measures
+measure	measures
+
+# mechanism
+mechanisms	mechanism
+
+# megaprojects
+megaproject	megaprojects
+
+# meta-analysis
+meta analysis	meta-analysis
+
+# metal-organic framework
+metal organic framework	metal-organic framework
+metal organic frameworks	metal-organic framework
+metal-organic framework (mofs)	metal-organic framework
+metal-organic frameworks	metal-organic framework
+metal–organic frameworks	metal-organic framework
+
+# methodology
+methodology (tccm)	methodology
+
+# methods
+method	methods
+method (tccm)	methods
+
+# mixed methods
+mixed method	mixed methods
+mixed-methods	mixed methods
+
+# mixed reality
+mixed reality (mr)	mixed reality
+
+# model
+models	model
+
+# modeling
+modelling	modeling
+
+# modular buildings
+modular building	modular buildings
+
+# monte carlo simulation
+monte carlo simulations	monte carlo simulation
+
+# motivation
+motivations	motivation
+
+# multi-agent systems
+multi-agent system (mas)	multi-agent systems
+
+# multi-criteria decision-making
+multi criteria decision making	multi-criteria decision-making
+multi-criteria decision making	multi-criteria decision-making
+multi-criteria decision making (mcdm)	multi-criteria decision-making
+
+# multi-objective optimization
+multi-objective optimization (moo)	multi-objective optimization
+
+# multinational enterprise
+multinational enterprises	multinational enterprise
+
+# natural hazards
+natural hazard	natural hazards
+
+# natural language processing
+natural language processing (nlp)	natural language processing
+
+# nature-based solutions
+nature-based solutions (nbs)	nature-based solutions
+
+# neighborhood
+neighborhoods	neighborhood
+
+# network
+networks	network
+
+# neural network
+neural network (nn)	neural network
+
+# new product development
+new product development (npd)	new product development
+
+# non-destructive testing
+non-destructive testing (ndt)	non-destructive testing
+
+# off-site construction
+off-site construction (osc)	off-site construction
+offsite construction	off-site construction
+offsite construction (osc)	off-site construction
+
+# older adults
+older adult	older adults
+
+# optimization algorithms
+optimization algorithm	optimization algorithms
+
+# organization
+organizations	organization
+
+# outcomes
+outcome	outcomes
+
+# pavement
+pavements	pavement
+
+# perception
+perceptions	perception
+
+# performance measurement
+performance measurement (quality)	performance measurement
+performance measurements	performance measurement
+
+# phase change material
+phase change material (pcm)	phase change material
+phase change materials	phase change material
+phase change materials (pcm)	phase change material
+phase change materials (pcms)	phase change material
+
+# pollutant
+pollutants	pollutant
+
+# polymers
+polymer	polymers
+
+# practices
+practice	practices
+
+# pre-service teacher
+pre-service teachers	pre-service teacher
+
+# prediction model
+prediction models	prediction model
+
+# predictive modeling
+predictive modelling	predictive modeling
+
+# prefabricated building
+prefabricated buildings	prefabricated building
+prefabricated buildings (pbs)	prefabricated building
+
+# prefabricated construction
+prefabricated construction (pc)	prefabricated construction
+
+# prisma guidelines
+prisma guideline	prisma guidelines
+
+# process modeling
+process modelling	process modeling
+
+# product-service system
+product service system	product-service system
+product service systems	product-service system
+product-service systems	product-service system
+
+# professional development
+professional development (pd)	professional development
+
+# project
+projects	project
+
+# project-based learning
+project-based learning (pbl)	project-based learning
+
+# psychological well-being
+psychological well-being (pwb)	psychological well-being
+
+# public health
+public-health	public health
+
+# public-private partnership
+public private partnerships	public-private partnership
+public-private partnership (ppps)	public-private partnership
+public-private partnerships	public-private partnership
+public-private-partnerships	public-private partnership
+public–private partnership	public-private partnership
+public–private partnership (ppp)	public-private partnership
+public–private partnerships	public-private partnership
+public–private-partnerships (ppp)	public-private partnership
+
+# publications
+publication	publications
+
+# quadruped robot
+quadruped robots	quadruped robot
+
+# qualitative methods
+qualitative method	qualitative methods
+
+# quality assessment
+quality assessment (qa)	quality assessment
+
+# quality control
+quality control (qc)	quality control
+
+# quantitative methods
+quantitative method	quantitative methods
+
+# radio frequency identification
+radio frequency identification (rfid)	radio frequency identification
+radio-frequency identification (rfid)	radio frequency identification
+
+# rating systems
+rating system	rating systems
+
+# recycled aggregate
+recycled aggregates	recycled aggregate
+
+# regulation
+regulations	regulation
+
+# regulatory frameworks
+regulatory framework	regulatory frameworks
+
+# relationships
+relationship	relationships
+
+# research agenda
+future research agenda	research agenda
+
+# research directions
+research direction	research directions
+
+# research frontiers
+research frontier	research frontiers
+
+# research gap
+research gaps	research gap
+
+# research hotspots
+research hotspot	research hotspots
+
+# research methods
+research method	research methods
+
+# research trends
+research trend	research trends
+
+# resource-based view
+resource- based view	resource-based view
+
+# retrieval-augmented generation
+retrieval-augmented generation (rag)	retrieval-augmented generation
+
+# reverse logistics
+reverse logistics (rl)	reverse logistics
+
+# review
+reviews	review
+
+# risk
+risks	risk
+
+# risk factors
+risk-factors	risk factors
+
+# risk management
+risk management (rm)	risk management
+
+# safety risk
+safety risks	safety risk
+
+# scan-to-bim
+scan to bim	scan-to-bim
+
+# school
+schools	school
+
+# scientometric analysis
+scientometric	scientometric analysis
+scientometric analysis (bsa)	scientometric analysis
+scientometric review	scientometric analysis
+scientometrics	scientometric analysis
+
+# scoping review
+scoping review (scoping study)	scoping review
+
+# sdgs
+sdg	sdgs
+
+# semantic web
+semantic-web	semantic web
+
+# sensors
+sensor	sensors
+
+# serious game
+serious games	serious game
+
+# service robots
+service robot	service robots
+
+# simulation
+simulations	simulation
+
+# skill
+skills	skill
+
+# small and medium-sized enterprises
+small and medium-sized enterprises (smes)	small and medium-sized enterprises
+small- and medium-sized enterprise(s)	small and medium-sized enterprises
+
+# smart buildings
+smart building	smart buildings
+
+# smart city
+smart cities	smart city
+
+# smart construction
+smart constructions	smart construction
+
+# smart contracts
+smart contract	smart contracts
+
+# smart home
+smart homes	smart home
+
+# smartphone
+smartphones	smartphone
+
+# smes
+sme	smes
+sme(s)	smes
+
+# social enterprise
+social enterprises	social enterprise
+
+# social impacts
+social impact	social impacts
+
+# social life cycle assessment
+social life cycle assessment (s-lca)	social life cycle assessment
+
+# social network analysis
+social network analysis (sna)	social network analysis
+
+# social networks
+social network	social networks
+
+# socio-technical systems
+socio-technical system	socio-technical systems
+
+# solid waste
+solid wastes	solid waste
+
+# spar-4-slr
+spar-4- slr	spar-4-slr
+
+# stakeholders
+stakeholder	stakeholders
+
+# standards
+standard	standards
+
+# startup
+startups	startup
+
+# state-of-the-art
+state of the art	state-of-the-art
+
+# steel
+steels	steel
+
+# steel structures
+steel structure	steel structures
+
+# stem
+stem (science, technology, engineering and math)	stem
+
+# stimulus organism response
+stimulus-organism-response (sor)	stimulus organism response
+stimulus–organism–response (sor)	stimulus organism response
+
+# strength
+strengths	strength
+
+# structural equation modeling
+structural equation modeling (sem)	structural equation modeling
+structural equation modelling	structural equation modeling
+structural equation modelling (sem)	structural equation modeling
+
+# structural health monitoring
+structural health monitoring (shm)	structural health monitoring
+
+# students
+student	students
+
+# sub-saharan africa
+sub-saharan africa (ssa)	sub-saharan africa
+
+# supplementary cementitious materials
+supplementary cementitious material	supplementary cementitious materials
+supplementary cementitious materials (scms)	supplementary cementitious materials
+
+# supply chain
+supply chains	supply chain
+
+# supply chain management
+supply chain management (scm)	supply chain management
+supply-chain management	supply chain management
+
+# supply chain risk
+supply chain risk(s)	supply chain risk
+supply chain risks	supply chain risk
+
+# supply chain risk management
+supply chain risk management (scrm)	supply chain risk management
+
+# sustainability indicators
+sustainability indicator	sustainability indicators
+
+# sustainability transition
+sustainability transitions	sustainability transition
+
+# sustainable building
+sustainable buildings	sustainable building
+
+# sustainable building materials
+sustainable building material	sustainable building materials
+sustainable building materials (sbms)	sustainable building materials
+
+# sustainable built environment
+sustainable built environments	sustainable built environment
+
+# sustainable construction materials
+sustainable construction material	sustainable construction materials
+
+# sustainable development
+sustainable development (sd)	sustainable development
+
+# sustainable development goals
+sustainable development goal	sustainable development goals
+sustainable development goals (sdgs)	sustainable development goals
+
+# sustainable materials
+sustainable material	sustainable materials
+
+# sustainable supply chain
+sustainable supply chains	sustainable supply chain
+
+# sustainable supply chain management
+sustainable supply chain management (mt-sscm)	sustainable supply chain management
+
+# sustainable urban development
+sustainable urban developments	sustainable urban development
+
+# system dynamics
+system dynamics (sd)	system dynamics
+
+# systematic literature review
+systematic literature review (slr)	systematic literature review
+systematic literature reviews	systematic literature review
+
+# systematic review
+systematic reviews	systematic review
+
+# tcm
+tcm (theory, context, method)	tcm
+
+# teachers
+teacher	teachers
+
+# technology acceptance model
+technology acceptance model (tam)	technology acceptance model
+technology acceptance models	technology acceptance model
+
+# text mining
+text-mining	text mining
+
+# theoretical framework
+theoretical frameworks	theoretical framework
+
+# topic modeling
+topic modelling	topic modeling
+
+# trends
+trend	trends
+
+# triple bottom line
+triple bottom line (tbl)	triple bottom line
+triple-bottom-line	triple bottom line
+
+# uav
+drone	uav
+drones	uav
+uavs	uav
+unmanned aerial system (uas)	uav
+unmanned aerial vehicle (uav)	uav
+unmanned aerial vehicles	uav
+
+# unsafe behaviors
+unsafe behavior	unsafe behaviors
+
+# urban heat island
+urban heat island (uhi)	urban heat island
+urban heat islands	urban heat island
+
+# user experience
+user experience (ux)	user experience
+
+# value
+values	value
+
+# vosviewer
+vos viewer	vosviewer
+vos-viewer	vosviewer
+
+# vulnerable population
+vulnerable populations	vulnerable population
+
+# waste
+wastes	waste
+
+# waste material
+waste materials	waste material
+
+# workers
+worker	workers
+
+# zero energy building
+zero energy buildings	zero energy building
+zero energy buildings (zebs)	zero energy building
+zero-energy buildings	zero energy building
+
+# zero-defect manufacturing
+zero defect manufacturing	zero-defect manufacturing

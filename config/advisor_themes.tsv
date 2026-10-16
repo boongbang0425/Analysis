@@ -1,0 +1,12 @@
+# 지도교수 논문 제목을 주제로 나누는 규칙. 한 논문이 여러 주제에 들 수 있다. 정규식은 소문자 제목에 적용. 열 구분은 탭.
+주제	정규식
+문서 NLP·LLM	natural language|\bnlp\b|text|\bbert\b|language model|\bllms?\b|clause|scope statement|request for information|rule generation|knowledge discovery|unstructured
+계약·입찰 리스크	contract|\bbid|prebid|risk|uncertaint|dispute|change order|requirement
+안전	safety|accident|prevention through design|hazard
+영상 기반 작업자 인식	re-identification|worker monitoring|vision|image|camera
+BIM·디지털 모델	\bbim\b|\bifc\b|model-based
+VR·AR	\bvr\b|\bar\b|virtual reality|augmented reality|mixed reality|extended reality
+재실자 쾌적·생체 센싱	thermal comfort|physiological|occupant|indoor environmental|wearable
+생성형 AI	generative
+에너지·환경	photovoltaic|life cycle|energy|green building|environmental impact
+정책·전략	housing|policy|growth strategies|system dynamics

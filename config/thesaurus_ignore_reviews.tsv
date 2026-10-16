@@ -1,0 +1,61 @@
+# 주제 지도(thesaurus_reviews_topic.txt)에서 지울 단어. 리뷰 방법, 분야 이름, 일반어라서 주제 구조를 가린다.
+# 방법 지도(thesaurus_reviews_method.txt)에는 적용하지 않는다. 통일 규칙을 적용한 뒤의 표기로 적는다. 한 줄에 하나.
+label
+# 리뷰 방법
+review
+literature review
+systematic review
+systematic literature review
+critical review
+scoping review
+state-of-the-art review
+narrative review
+qualitative review
+mixed review
+integrative review
+bibliometric analysis
+scientometric analysis
+science mapping
+knowledge map
+co-citation analysis
+co-word analysis
+keyword co-occurrence
+citation analysis
+content analysis
+thematic analysis
+meta-analysis
+prisma
+prisma guidelines
+vosviewer
+citespace
+bibliometrix
+# 리뷰가 늘 쓰는 말
+research trends
+research agenda
+research gap
+knowledge gap
+future research
+research directions
+research hotspots
+research frontiers
+framework
+conceptual framework
+methodology
+methods
+challenges
+opportunities
+state-of-the-art
+overview
+survey
+trends
+evolution
+applications
+taxonomy
+# 분야 이름
+construction
+construction industry
+built environment
+civil engineering
+aec industry
+aeco industry
+architecture, engineering and construction

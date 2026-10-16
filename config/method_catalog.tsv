@@ -1,0 +1,52 @@
+# 연구 주제를 찾는 방법의 목록. build_reviews.py가 코퍼스마다 제목·초록·키워드(소문자)에서 세고,
+# 대표 논문과 그 방법을 쓴 논문들이 많이 인용한 문헌을 output/reviews/method_catalog.csv에 쓴다. 열 구분은 탭.
+# 설명은 docs/methods_manual.md에 있다. 코드는 매뉴얼의 절 번호와 같다.
+코드	계열	방법	정규식
+A1	문헌 종합	체계적 문헌 리뷰(SLR)	systematic (literature )?review|\bslr\b
+A2	문헌 종합	스코핑 리뷰	scoping (review|study)
+A3	문헌 종합	체계적 매핑 연구	systematic mapping|mapping study|mapping review
+A4	문헌 종합	메타분석	meta-analy|meta analy
+A5	문헌 종합	메타합성·질적 종합	meta-synthesis|metasynthesis|meta-ethnograph|qualitative synthesis|thematic synthesis
+A6	문헌 종합	엄브렐라·3차 리뷰	umbrella review|tertiary (study|review)|review of reviews|overview of reviews
+A7	문헌 종합	통합적·비판적·서술적 리뷰	integrative review|critical review|narrative review|state-of-the-art review|hermeneutic review
+A8	문헌 종합	신속·실재론적 리뷰	rapid review|realist review|realist synthesis
+A9	문헌 종합	LLM·자동화 보조 리뷰	(llm|large language model|chatgpt|gpt-4|machine learning)[- ](assisted|aided|based) (systematic )?(literature )?review|automated (systematic )?review|ai-assisted (systematic )?review|asreview
+B1	계량서지	성과 분석(생산성·인용)	performance analysis|citation analysis|h-index|most[- ]cited|publication trend
+B2	계량서지	동시 인용 분석	co-citation|cocitation
+B3	계량서지	서지 결합 분석	bibliographic coupling
+B4	계량서지	키워드 동시 출현(공어휘)	co-occurrence|co-word|keyword network
+B5	계량서지	공저·협업 네트워크	co-authorship|coauthorship|collaboration network
+B6	계량서지	버스트·신흥 주제 탐지	burst detection|citation burst|keyword burst|emerging (topics?|trends?|themes?)|research front
+B7	계량서지	주경로 분석	main path
+B8	계량서지	주제 지도·주제 진화	thematic map|strategic diagram|thematic evolution|science mapping
+C1	텍스트 마이닝	토픽 모델링	topic model|latent dirichlet|\blda\b|bertopic|non-negative matrix factori|structural topic model
+C2	텍스트 마이닝	텍스트 마이닝·NLP 분석	text mining|text-mining|natural language processing|\bnlp\b
+C3	텍스트 마이닝	임베딩·의미 군집	word2vec|embedding|semantic (similarity|clustering)|sentence-bert|sbert
+C4	텍스트 마이닝	문헌 기반 발견(LBD)	literature-based discovery|swanson|undiscovered public knowledge|hypothesis generation
+D1	질적 분석	내용 분석	content analysis
+D2	질적 분석	주제 분석(thematic analysis)	thematic analysis
+D3	질적 분석	근거이론	grounded theory
+D4	질적 분석	프레임워크 합성·개념 모델 구축	framework synthesis|conceptual (framework|model)|integrative framework|theoretical framework
+E1	의제 도출 틀	TCCM	\btccm\b|theory.{1,5}context.{1,5}characteristics.{1,5}methodolog
+E2	의제 도출 틀	ADO	\bado\b framework|antecedents.{1,5}decisions.{1,5}outcomes
+E3	의제 도출 틀	SPAR-4-SLR	spar-4-slr|spar-4- slr
+E4	의제 도출 틀	연구 의제·연구 질문 제시	research agenda|future research agenda|research questions? (for|to guide) future
+E5	의제 도출 틀	분류체계·유형론	taxonomy|typology|classification framework
+E6	의제 도출 틀	명제·가설 제시	propositions|testable hypothes
+F1	전문가·실무	델파이	delphi
+F2	전문가·실무	전문가 인터뷰	semi-structured interview|expert interview|interviews with (experts|practitioners)
+F3	전문가·실무	설문 조사	questionnaire survey|questionnaire|survey of (practitioners|professionals|experts)
+F4	전문가·실무	포커스 그룹·워크숍	focus group|workshop
+F5	전문가·실무	사례 연구	case stud(y|ies)
+F6	전문가·실무	연구-실무 간극 분석	research-practice gap|research–practice gap|academia and industry|industry insights|practitioner perspective
+G1	기술 예측	특허 분석	patent
+G2	기술 예측	기술 로드맵	roadmap|road map
+G3	기술 예측	시나리오·미래 연구	scenario planning|foresight|futures studies
+G4	기술 예측	SWOT·PESTEL	\bswot\b|pestel|\bpest analysis
+G5	기술 예측	기술 성숙도·하이프 사이클	technology readiness|\btrl\b|hype cycle|maturity model
+G6	기술 예측	형태학적 분석	morphological analysis|morphological box
+H1	설계·공학 탐색	디자인 사이언스 리서치(DSR)	design science research|design science
+H2	설계·공학 탐색	벤치마크·재현 연구	benchmark|reproducib|replication
+H3	설계·공학 탐색	요구·간극 분석	requirements analysis|needs assessment|gap analysis
+I1	공백 식별 이론	Gap-spotting·문제화	gap-spotting|gap spotting|problematization|problematisation
+I2	공백 식별 이론	연구 공백 유형 분류	research gap(s)? (typology|taxonomy|types)|types of research gaps|evidence gap|knowledge gap map
